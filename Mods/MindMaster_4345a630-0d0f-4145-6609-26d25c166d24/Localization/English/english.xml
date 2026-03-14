@@ -129,7 +129,7 @@
   <content contentuid="h3f4689efgabedg8151g0bd4g5b4b3ac80271" version="1">The wearer's summoned creature has resistance to all damage except [1].&lt;br&gt;&lt;br&gt;At the start of the summoned creature's turn, it must succeed a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be driven &lt;LSTag Type="Status" Tooltip="CROWN_OF_MADNESS"&gt;Mad&lt;/LSTag&gt;.</content>
   <content contentuid="hbe6c6bbagd884gabbcgced6g3edbb58a7d07" version="1">Wild Shape: Panther</content>
   <content contentuid="h0322639ag9d91g8b5fg37f9gca773f9656f8" version="5">Проклятие: Тень Послушания</content>
-  <content contentuid="h63a26736g089egb9edgfc25g7d3588750c48" version="10">Умерев в бою, под действием проклятия, существо получит состояние - &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верный слуга&lt;/LSTag&gt;.</content>
+  <content contentuid="h63a26736g089egb9edgfc25g7d3588750c48" version="11">Умерев в бою, под действием проклятия, существо получит состояние - &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верный слуга&lt;/LSTag&gt;. %%% ТРАТИТ ОСКОЛОК ДУШИ</content>
   <content contentuid="h8e69b333g070eg2a26ge115g0d836fcee43e" version="4">Верный слуга</content>
   <content contentuid="hc9df5452gf84agacf0ge985ge8db8ad385d7" version="15">Под воздействием проклятия, существо вернулось с того света, в виде безвольной оболочки, и будет сражаться за вас до конца боя.&lt;br&gt;&lt;br&gt;Существо обладает уменьшенным значением &lt;LSTag Tooltip="HitPoints"&gt;Очков здоровья&lt;/LSTag&gt; и &lt;LSTag Tooltip="ArmourClass"&gt;Класса брони&lt;/LSTag&gt;. Его &lt;LSTag Tooltip="Intelligence"&gt;Интеллект&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Мудрость&lt;/LSTag&gt; и &lt;LSTag Tooltip="Charisma"&gt;Харизма&lt;/LSTag&gt; также были снижены на 5.&lt;br&gt;&lt;br&gt;Дополнительно наносит [1] при атаках.&lt;br&gt;&lt;br&gt;При повторной гибели или по завершению боя - душа оставит своё бренное тело, без возможности вернуться повторно.</content>
   <content contentuid="h4b838e94g0fe0g15a6ge660g6656e2d70ad8" version="4">Тень Послушания</content>
@@ -183,5 +183,8 @@
   <content contentuid="h587edc4dg4c64g41c4ged9bgb0188b9c65b2" version="1">The taut violet leather is drier than snakeskin, and puckered at each knuckle with shallow mouth-shaped pits. </content>
   <content contentuid="h050832ebg650fg2585gd74cg6a82fe53da1a" version="1">Обруч Мастера Разума</content>
   <content contentuid="h285b165dgded6gba54ge723ge3fb6fd821bc" version="1">You get the eerie feeling that the jewelsmith used more than alien metals to forge this circlet - something like ancient magic, or shards of a soul.</content>
-  <content contentuid="h5060bf78g447bg7d15gf860g0cc6023a3ae1" version="1">%%% Строчка для проверки синхронизации в системе</content>
+  <content contentuid="h5060bf78g447bg7d15gf860g0cc6023a3ae1" version="4">%%% НЕВИДЕМЫЙ СТАТУС ДЛЯ ПРОВЕРКИ</content>
+  <content contentuid="h1983675egc1dbga9a6g599fgd1e2fceb908f" version="4">%%% ЖИВ ВРАГ ИЛИ НЕТ ПРИ НАНЕСЕНИИ УРОНА ЗАКЛИНАНИЕМ "PatronForm_SoulDevour"</content>
+  <content contentuid="h404d94abgd52cgcee7g33f5g8209ef6c433b" version="1">Осколок души</content>
+  <content contentuid="hc3a9c1c3g3b52g4129g1eefg663265c009f7" version="1">Вы поглотили жизненную силу вашего врага и можете использовать её для сотворения особых заклинаний, данных вам покровителем.</content>
 </contentList>

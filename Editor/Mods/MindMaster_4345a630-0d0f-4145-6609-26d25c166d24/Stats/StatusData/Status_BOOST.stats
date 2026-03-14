@@ -204,8 +204,6 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(15)" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell8" />
         <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
-        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="LAUGHTERMANIACAL" enumeration_type_name="SoundVocalType" version="1" />
-        <field name="SoundVocalLoop" type="EnumerationTableFieldDefinition" value="LAUGHTERMANIACAL" enumeration_type_name="SoundVocalType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_Whisper_OF_Dread" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnRemove;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
@@ -217,8 +215,29 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a17aafa5-7c6d-4f7e-bf58-120ff387dbb3" />
-        <field name="Name" type="NameTableFieldDefinition" value="SuperTestingTest" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5060bf78g447bg7d15gf860g0cc6023a3ae1" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF9400D3" value="PatronForm_SoulDevour_HIDDENSTACK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5060bf78g447bg7d15gf860g0cc6023a3ae1" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1983675egc1dbga9a6g599fgd1e2fceb908f" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell9" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_SoulDevour_HIDDENSTACK" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('KNOCKED_OUT')" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(SELF,PatronForm_SoulDevour_STACK,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8415b6c3-599e-4ca2-bf62-52fcc31052d7" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF9400D3" value="PatronForm_SoulDevour_STACK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h404d94abgd52cgcee7g33f5g8209ef6c433b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3a9c1c3g3b52g4129g1eefg663265c009f7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell9" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_SoulDevour_STACK" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
