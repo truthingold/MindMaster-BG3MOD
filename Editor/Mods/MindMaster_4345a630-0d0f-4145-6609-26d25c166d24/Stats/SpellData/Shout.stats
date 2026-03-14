@@ -69,7 +69,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="9893cc8f-6ed2-422b-a54a-b106f0b338a5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7d5b879g5f42g4797g1cf0gde67b14f90f0" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfbdcb0fbg5254gc675g1764g55ae74b4856b" version="2" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf53d889dg1ee1g6925g9b96g61df4f8764ea" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf53d889dg1ee1g6925g9b96g61df4f8764ea" version="3" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="Requirements" type="StringTableFieldDefinition" value="Combat" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
@@ -113,8 +113,8 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PatronForm_Whisper_OF_Dread, 100, 10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell8" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45a4b034g1484g8ed6g10beg1be493e1db18" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30a635f0gff1bg1598gd127g575ba5d82612" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45a4b034g1484g8ed6g10beg1be493e1db18" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30a635f0gff1bg1598gd127g575ba5d82612" version="7" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PatronForm_Whisper_OF_Dread,100,10)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_FormOfDread" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_FormOfDread" />
@@ -131,6 +131,9 @@
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_Necrotic_ArmsOfHadar_L1to3" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PatronForm_Whisper_OF_Dread')" />
         <field name="SpellEffect" type="GuidObjectTableFieldDefinition" value="daabac5d-1a39-42ad-afdd-3d562c3c42c1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(15)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h89310618g0293gc174g71f8gf37e3c187291" version="3" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
       </fields>
     </stat_object>
   </stat_objects>

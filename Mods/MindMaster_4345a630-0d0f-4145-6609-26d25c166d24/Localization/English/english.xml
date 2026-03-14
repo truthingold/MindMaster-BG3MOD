@@ -109,7 +109,7 @@
   <content contentuid="h3813d09egf16egde98g2a2fgf2616747c150" version="1">Bane's oppressive aura gives the affected entity &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on attack rolls and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while within [1] of the spellcaster.</content>
   <content contentuid="hc7d5b879g5f42g4797g1cf0gde67b14f90f0" version="3">Аура: Пожиратель Знаний</content>
   <content contentuid="hfbdcb0fbg5254gc675g1764g55ae74b4856b" version="2">Даёт врагу &lt;LSTag Tooltip="Disadvantage"&gt;Помеху&lt;/LSTag&gt; на броски атаки и &lt;LSTag Tooltip="SavingThrow"&gt;Испытания&lt;/LSTag&gt; пока они находятся не дальше, чем в 10 метрах от вас. </content>
-  <content contentuid="hf53d889dg1ee1g6925g9b96g61df4f8764ea" version="2">Существа, которые не могут быть &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Испуганы&lt;/LSTag&gt; не подвергаются эффекту.</content>
+  <content contentuid="hf53d889dg1ee1g6925g9b96g61df4f8764ea" version="3">Существа, которые не могут быть &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Испуганы&lt;/LSTag&gt; - не подвергаются эффекту.</content>
   <content contentuid="h46f00599g31a2g2510g587fg6ce224ca73ce" version="5">Аура: Отчаяние: - Заклинатель</content>
   <content contentuid="h8832986ag211cg26aagcae2gfc72e368002b" version="2">Ближайшие союзники дополнительно наносят [1], пока не отойдут достаточно далеко от заклинателя.</content>
   <content contentuid="h0f6e023fga662gefafg9a92g9276a89b14f4" version="5">Аура: Отчаяние - Союзник</content>
@@ -129,7 +129,7 @@
   <content contentuid="h3f4689efgabedg8151g0bd4g5b4b3ac80271" version="1">The wearer's summoned creature has resistance to all damage except [1].&lt;br&gt;&lt;br&gt;At the start of the summoned creature's turn, it must succeed a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be driven &lt;LSTag Type="Status" Tooltip="CROWN_OF_MADNESS"&gt;Mad&lt;/LSTag&gt;.</content>
   <content contentuid="hbe6c6bbagd884gabbcgced6g3edbb58a7d07" version="1">Wild Shape: Panther</content>
   <content contentuid="h0322639ag9d91g8b5fg37f9gca773f9656f8" version="5">Проклятие: Тень Послушания</content>
-  <content contentuid="h63a26736g089egb9edgfc25g7d3588750c48" version="11">Умерев в бою, под действием проклятия, существо получит состояние - &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верный слуга&lt;/LSTag&gt;. %%% ТРАТИТ ОСКОЛОК ДУШИ</content>
+  <content contentuid="h63a26736g089egb9edgfc25g7d3588750c48" version="12">Умерев в бою, под действием проклятия, существо получит состояние - &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верный слуга&lt;/LSTag&gt;.</content>
   <content contentuid="h8e69b333g070eg2a26ge115g0d836fcee43e" version="4">Верный слуга</content>
   <content contentuid="hc9df5452gf84agacf0ge985ge8db8ad385d7" version="15">Под воздействием проклятия, существо вернулось с того света, в виде безвольной оболочки, и будет сражаться за вас до конца боя.&lt;br&gt;&lt;br&gt;Существо обладает уменьшенным значением &lt;LSTag Tooltip="HitPoints"&gt;Очков здоровья&lt;/LSTag&gt; и &lt;LSTag Tooltip="ArmourClass"&gt;Класса брони&lt;/LSTag&gt;. Его &lt;LSTag Tooltip="Intelligence"&gt;Интеллект&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Мудрость&lt;/LSTag&gt; и &lt;LSTag Tooltip="Charisma"&gt;Харизма&lt;/LSTag&gt; также были снижены на 5.&lt;br&gt;&lt;br&gt;Дополнительно наносит [1] при атаках.&lt;br&gt;&lt;br&gt;При повторной гибели или по завершению боя - душа оставит своё бренное тело, без возможности вернуться повторно.</content>
   <content contentuid="h4b838e94g0fe0g15a6ge660g6656e2d70ad8" version="4">Тень Послушания</content>
@@ -150,15 +150,15 @@
   <content contentuid="h43895499gecbdg940dg3c13g381a9362c949" version="1">Form of Dread</content>
   <content contentuid="hcc8f889fg41b4g968dg8e55g800daf88ebe8" version="1">The Ch'r'ai has [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time she attacks a foe, that foe can become Frightened for 1 turn.</content>
   <content contentuid="hbc98c9a9g469dgd711g6cbdg6604d2e2fda5" version="2">Шёпот Истинного Ужаса</content>
-  <content contentuid="hf93bc0dfgd35cg1145g63e0g7aa3c5281536" version="1">The Ch'r'ai has [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time she attacks a foe, that foe can become Frightened for 1 turn.</content>
+  <content contentuid="hf93bc0dfgd35cg1145g63e0g7aa3c5281536" version="5">Вам становятся доступны следующие заклинания для сотворения, до конца действия эффекта:&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_SoulDevour"&gt;Жнец Душ&lt;/LSTag&gt;;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_ShadowObedience"&gt;Проклятие: Тень Послушания&lt;/LSTag&gt;;&lt;br&gt;</content>
   <content contentuid="hbf34e88ag8e77ged47gfa53g640194ea6738" version="3">%%% НЕ ЗАБЫТЬ ВПИСАТЬ Эхо Бездны</content>
   <content contentuid="he76fb61fgdd61gec4eg50beg9c4d4ada5d36" version="6">При нанесении психического урона, дополнительно нанесите [1].</content>
   <content contentuid="h114f4e71gcf2ag9d43g0291ge3ac65a9e03b" version="2">При нанесении некротического урона, дополнительно нанесите [1].</content>
   <content contentuid="hac641544g5d9fg66e0g56cagc180e540a935" version="1">Вмешательство покровителя в ваш разум оставило свой след...</content>
-  <content contentuid="h45a4b034g1484g8ed6g10beg1be493e1db18" version="1">Шёпот Истинного Ужаса</content>
-  <content contentuid="h30a635f0gff1bg1598gd127g575ba5d82612" version="2">ФОРМА+АБИЛКИ %%% ДОПИСАТЬ ЧТО (ВОЗМОЖНО) ДАЁТ ИСПУГ ПРИ АТАКАХ И ВРЕМЕННЫЕ 15 ОЗ</content>
-  <content contentuid="ha80a50f4gb04dg54e1gfe1cg1c94516d6ce0" version="2">%%% Шёпот Истинного Ужаса</content>
-  <content contentuid="h4f52131fg55a4g7185g78b1gcf8adf5b89be" version="2">The Ch'r'ai has [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time she attacks a foe, that foe can become Frightened for 1 turn. %%% Условия для испуга</content>
+  <content contentuid="h45a4b034g1484g8ed6g10beg1be493e1db18" version="2">Истинный ужас</content>
+  <content contentuid="h30a635f0gff1bg1598gd127g575ba5d82612" version="7">Заклинатель получает  [1]. Любые ваши атаки, наносящие урон, могут &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Испугать&lt;/LSTag&gt; цель, если она провалила &lt;LSTag Tooltip="SavingThrow"&gt;Испытание&lt;/LSTag&gt; &lt;LSTag Tooltip="Wisdom"&gt;Мудрости&lt;/LSTag&gt;, на 1 ход.&lt;br&gt;&lt;br&gt;Существа, которые не могут быть &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Испуганы&lt;/LSTag&gt; - не подвергаются эффекту.</content>
+  <content contentuid="ha80a50f4gb04dg54e1gfe1cg1c94516d6ce0" version="3">%%% СКРЫТАЯ ПАССИВКА - Шёпот Истинного Ужаса</content>
+  <content contentuid="h4f52131fg55a4g7185g78b1gcf8adf5b89be" version="3">%%% Накладывает испуг на врага длиной в 1 ход при провале испытания</content>
   <content contentuid="he9ed2b16gb4c5g7b7dg5f42gf5e787cea27c" version="3">Аура: Отчаяние - Враг</content>
   <content contentuid="hd1fcfa4dg1dfcgd001gc8e2g6ac4ce282414" version="2">Когда враг проваливает бросок атаки и промахивается, он получает [1]</content>
   <content contentuid="h13eb1ca9g5a9ag27e4g1892g403ee8af3267" version="1">%%% Разблокирует "Отбросить облик Патрона"</content>
@@ -170,7 +170,7 @@
   <content contentuid="h19702b3egff3eg6ca8g7fafg26b1c15bf1c8" version="1">Отголосок Бездны</content>
   <content contentuid="h0af46447g7514ge5a0g9ff3ga94937ccc70a" version="1">Ресурс для превращения в патрона</content>
   <content contentuid="h08fe2a53g6ee5g0829gfccag28a96a8d4d1e" version="2">Жнец Душ</content>
-  <content contentuid="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="2">Нанести некро урон и вылечится на половину от него - иначе нанести только половину урона</content>
+  <content contentuid="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="7">Если существо провалит &lt;LSTag Tooltip="SavingThrow"&gt;Испытание&lt;/LSTag&gt; &lt;LSTag Tooltip="Constitution"&gt;Выносливости&lt;/LSTag&gt; - оно получит урон, а заклинатель вылечится на половину от нанесённого урона.</content>
   <content contentuid="h11af987cge616g64ffgee06gaaa657c11c54" version="1">%%%|Mindsteal Link|</content>
   <content contentuid="h4630b976g5c66g529dg086ag5617b652a7de" version="1">%%%|Hidden: Suffers from a Mindsteal Link from the Inquisitor|</content>
   <content contentuid="h9954382fg0dccg46f6g8949g3024f5e9c0fc" version="2">%%% ТЕСТ ЭФФЕКТ</content>
@@ -187,4 +187,7 @@
   <content contentuid="h1983675egc1dbga9a6g599fgd1e2fceb908f" version="4">%%% ЖИВ ВРАГ ИЛИ НЕТ ПРИ НАНЕСЕНИИ УРОНА ЗАКЛИНАНИЕМ "PatronForm_SoulDevour"</content>
   <content contentuid="h404d94abgd52cgcee7g33f5g8209ef6c433b" version="1">Осколок души</content>
   <content contentuid="hc3a9c1c3g3b52g4129g1eefg663265c009f7" version="1">Вы поглотили жизненную силу вашего врага и можете использовать её для сотворения особых заклинаний, данных вам покровителем.</content>
+  <content contentuid="h5ed4b75ag44e1gf3a6gd302gb41ffffbaf9d" version="2">За убийство врага этим заклинанием, вы получите - &lt;LSTag Type="Status" Tooltip="PatronForm_SoulDevour_STACK"&gt;Осколок души&lt;/LSTag&gt;.  </content>
+  <content contentuid="hf6825a02g4391g34f6g2f68g759386576f4b" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Для сотворения требует &lt;LSTag Type="Status" Tooltip="PatronForm_SoulDevour_STACK"&gt;Осколок души&lt;/LSTag&gt;.</content>
+  <content contentuid="h89310618g0293gc174g71f8gf37e3c187291" version="3">Так же на заклинателя накладывается эффект - &lt;LSTag Type="Status" Tooltip="PatronForm_Whisper_OF_Dread"&gt;Шёпот Истинного Ужаса&lt;/LSTag&gt;.</content>
 </contentList>

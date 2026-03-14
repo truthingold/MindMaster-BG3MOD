@@ -8,6 +8,10 @@
                     <attribute id="Text" type="TranslatedString" handle="h9ffda495g9fcagc37dg3e23g20e4d2bd4f48" version="5"/>
                     <attribute id="UUID" type="guid" value="596cbb59-5ffa-4b34-9129-26a8fe48f59d"/>
                 </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="hf6825a02g4391g34f6g2f68g759386576f4b" version="1"/>
+                    <attribute id="UUID" type="guid" value="e0cf4761-7816-4a01-a71f-4c76ae317967"/>
+                </node>
             </children>
         </node>
     </region>

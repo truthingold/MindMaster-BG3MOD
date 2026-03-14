@@ -8,5 +8,12 @@
         <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h9ffda495g9fcagc37dg3e23g20e4d2bd4f48" version="5" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e0cf4761-7816-4a01-a71f-4c76ae317967" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="hf6825a02g4391g34f6g2f68g759386576f4b" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
