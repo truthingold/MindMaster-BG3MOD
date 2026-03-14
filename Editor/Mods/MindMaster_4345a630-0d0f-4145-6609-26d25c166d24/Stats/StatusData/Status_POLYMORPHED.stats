@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="ee4c30a6-9728-40e1-9722-b8a1ec68599e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e29fc5c5-aa53-4692-b3b5-cb7c2780c01d" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PATRONFACE_WILDSHAPE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c229646g208egaeb8gdc7agcba6b8e63406" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h75c4663ag1e02g9b2egf190ge19877724c2b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell2" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PATRONFACE_Dismiss);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ABERRANT_SHAPE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="731501ad-4751-48a4-b902-c6f2b286196a" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="790cef5c-6955-46b6-b92b-0da9eb6886a3" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="3af115ba-0e7c-4580-a553-0039a34ff8b1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56878ccf-2995-42e0-aa07-6fb9477e949f" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFFF8C00" value="PATRONFACE_ShadowObedience_Resurrect" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e69b333g070eg2a26ge115g0d836fcee43e" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9df5452gf84agacf0ge985ge8db8ad385d7" version="15" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeOverride(18);StatusImmunity(HEAL);StatusImmunity(FEARED);StatusImmunity(COMMAND_FLEE);StatusImmunity(SHADOW_CURSED_VINES);DamageBonus(1d6+2,Necrotic);AC(-3);Ability(Intelligence,-5);Ability(Wisdom,-5);Ability(Charisma,-5);Resistance(Necrotic,Resistant);Resistance(Poison,Resistant);Resistance(Bludgeoning,ResistantToNonMagical);Resistance(Slashing,ResistantToNonMagical);Resistance(Piercing,ResistantToNonMagical);FactionOverride(Source);AiArchetypeOverride(zombie,1);ProficiencyBonusOverride(0);IncreaseMaxHP(-5);UnlockSpellVariant(ShadowCurseUndead(),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(not ShadowCurseUndead(),ModifyUseCosts(Replace,ActionPoint,1,0,BonusActionPoint));StatusImmunity(SCL_MOONSHIELD);BlockTravel();Tag(ACT2_SHADOW_CURSE_IMMUNE);DialogueBlock();" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ForceOverhead;ApplyToDead;LoseControl;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a9cf5cbf-4247-4b9a-b81b-e3af4982ff62" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="a42a8493-b701-4d71-bdc8-0857e718c247" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="3cda987f-5e0f-44e0-b54d-c72020040406" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsKillingBlow() or not Combat()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage;OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6+2,Necrotic);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Cursed;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PATRONFACE_ShadowObedience_Resurrect" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ControlUndead_Immune;IncorporealMovement;" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="Kill()" />
+        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="b810f062-6872-4b44-baea-bea642e83f3b" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,5 @@
+new equipment "MINDMASTER_WARLOCK_START_EQUIP"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "END_Emperor_Staff"
+

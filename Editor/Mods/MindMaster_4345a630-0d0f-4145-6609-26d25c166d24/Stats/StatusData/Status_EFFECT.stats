@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="afc508da-dd39-4821-b0af-9955e5e2f087">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66cef1a5-3479-4107-86a5-f9edd56dc70d" />
+        <field name="Name" type="NameTableFieldDefinition" value="TESTEFFECT1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53a3a522-a0f2-4595-85ec-0167d41c0b97" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9954382fg0dccg46f6g8949g3024f5e9c0fc" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c87ad7fg23fag4e3eg4f40g744e086289bd" version="2" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;TickingWithSource;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="4742b1b9-b876-4eea-93ef-66e995c2995d" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="CrSpell_Loop_MindstealTempest_Link_MON" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="CrSpell_Loop_MindstealTempest_Link_MON_Stop" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

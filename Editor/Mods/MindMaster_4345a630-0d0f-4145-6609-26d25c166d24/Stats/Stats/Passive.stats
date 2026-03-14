@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9826308d-cdc0-4d2b-9981-07692ee6592b" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF00CED1" value="MIND_BLAST_ENVOCATION_PASSIVE1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5aee5d5gc1bbgbf70g76d4gf77234c782d4" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ebcabd6g2cbbg41acg13cegcae8218fa77c" version="13" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Projectile_MIND_BLAST_CANTRIP') and HasDamageEffectFlag(DamageFlags.Hit);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMBlast3" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(SpellId('Projectile_MIND_BLAST_CANTRIP') and IsCharismaModifierPositive()):DamageBonus(CharismaModifier,Necrotic);" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h7f0acaa3g8cedgadb2g22aeg54e02c378b11" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="213e8842-2088-4f06-93bd-1060e83bf727" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF48D1CC" value="MIND_BLAST_ENVOCATION_PASSIVE2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c2274b4g3837g2a78gacb7ge7cf6609db5d" version="5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71d1ca93ge638g7b61gc31fgbeaaedec0d05" version="11" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Projectile_MIND_BLAST_CANTRIP') and HasDamageEffectFlag(DamageFlags.Hit);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMBlast3" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h3609152dg9f88g09b1g5837g26c887c9248c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d524c15-af74-476f-870f-fc42a63331ab" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF708090" value="MIND_MASTER_BARRIER_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32353eaagb77ege8d6g6046g3fa087fe37e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd13eec11g4b11gdaafg5564g55293a606fc9" version="9" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMBarrier1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic, Resistant);Advantage(SavingThrow,Intelligence);Advantage(SavingThrow,Wisdom);Advantage(Skill, Intimidation);" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="habf2a1c7g3bd4g0118g3ed8g9f7f0229e92c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32bcce83-65f6-4c05-8dc7-a004835e93c4" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PATRONFACE_DESPAIR_DEBUFF_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5dded480g25cbgc92eg89f6ge07f16222db5" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a8aa532g6379g0802g21b3g5cff4fd29908" version="2" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SELF,1d4,Psychic,Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Psychic)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8c55a69-1d5c-4b21-bc49-50f2cf5823d4" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF7B68EE" value="PatronForm_TOOGLE_AURAEFFECT_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde0d3129g25e9g3d69g2137gd5c126f89339" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4e6e04ag95b9gefccg48f1ged99560642ed" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMAuraToogle1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('PatronForm_TOOGLE_AURAEFFECT');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PatronForm_TOOGLE_AURAEFFECT, 100, -1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PatronForm_TOOGLE_AURAEFFECT, 100, -1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(PatronForm_TOOGLE_AURAEFFECT, 100, -1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a422e836-5245-4164-ad89-1306364b7966" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFBC8F8F" value="MIND_MASTER_ECHOOFTHEVOID_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf34e88ag8e77ged47gfa53g640194ea6738" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he76fb61fgdd61gec4eg50beg9c4d4ada5d36" version="6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Necrotic)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsDamageTypePsychic() and not Item()):DamageBonus(1d4,Necrotic);IF(IsDamageTypeNecrotic() and not Item()):DamageBonus(1d4,Psychic);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h114f4e71gcf2ag9d43g0291ge3ac65a9e03b" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Psychic)" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="hac641544g5d9fg66e0g56cagc180e540a935" version="1" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="596cbb59-5ffa-4b34-9129-26a8fe48f59d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b589ab0-be96-41f2-ba78-108180a2e6ff" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF800000" value="PATRONFACE_WHISPEROFDREAD_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha80a50f4gb04dg54e1gfe1cg1c94516d6ce0" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f52131fg55a4g7185g78b1gcf8adf5b89be" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(15)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell8" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('FRIGHTENED',context.Target) and not Self();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(FRIGHTENED,100,2)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

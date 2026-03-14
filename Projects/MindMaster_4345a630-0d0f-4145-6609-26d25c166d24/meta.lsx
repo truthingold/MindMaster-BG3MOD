@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="4345a630-0d0f-4145-6609-26d25c166d24"/>
+            <attribute id="Name" type="LSString" value="MindMaster"/>
+            <attribute id="UUID" type="LSString" value="598f93e4-7cc5-878e-8711-e3471e4eeb43"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

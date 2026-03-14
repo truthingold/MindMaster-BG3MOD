@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="hb5585511gf6f1g7154gdf04g478bf1206bf8" version="1">Сломить Разум</content>
+  <content contentuid="h4252b5ffg88bdgb768gd861g0b2cf62ca847" version="2">Подчинить любое существо своей воле.</content>
+  <content contentuid="h1588bdaagbc0ag69dcg8f6dg2419a85605bd" version="5">Служение Высшему Существу</content>
+  <content contentuid="hcc5bbd00g9c3eg3327g316agc7671ca63d15" version="3">Внушите в существо его самые потаенные страхи. Если существо не пройдёт [1], то оно станет [2] и получит [3]. Иначе существо не будет [2] и получит вдвое меньше [4] Все присмыкаются перед ликом сильного.</content>
+  <content contentuid="h4fc9a7dfg8cdbgdd3egb635gafad75247212" version="30">При провале &lt;LSTag Tooltip="SavingThrow"&gt;Испытания&lt;/LSTag&gt;, на существо накладывается &lt;LSTag Type="Status" Tooltip="SUPREME_BEING_STATUS"&gt;Рабская метка&lt;/LSTag&gt;.</content>
+  <content contentuid="hf98c0b3ag8880g7493g9a16g963140f3b90c" version="2">Рабская метка</content>
+  <content contentuid="h59865553g78b5g4d7eg1225g199e56cec99d" version="12">Существо вынуждено сражаться за заклинателя и каждый ход получать урон, пока эффект не закончится.&lt;br&gt;&lt;br&gt;Оно, потенциально, может получить [1].&lt;br&gt;&lt;br&gt;Атакуя своих товарищей, каждый свой ход, после первого, существо может раньше времени выбраться из этого состояния.&lt;br&gt;Под контролем может быть только одно существо за применение.</content>
+  <content contentuid="h90ccf40dg215dg8f97g3670g416286e92f22" version="1">ТЕСТ ТЕСТОВОГО ТЕСТА</content>
+  <content contentuid="hf353c5bcg4e7ag3a30gbd1egf322a8cc11fa" version="1">Mindsteal Link</content>
+  <content contentuid="h18dd0d4dg3b5fg6570g5b8cg4010962cf3cc" version="1">Leech off a foe's psychic energy to make them more vulnerable and strengthen yourself.</content>
+  <content contentuid="h29f6bfc9g0599ga4cfg10aeg9c31dc1a18ca" version="1">You gain a +[1] bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and deal an additional [2] with weapon attacks.&lt;br&gt;&lt;br&gt;The target receives a -[3] penalty to its Armour Class and becomes &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic damage.</content>
+  <content contentuid="ha0871eefga2c2g57e1g3d5dg02d43a2de6cf" version="1">Данное заклинание не действует на всех существ, кроме гуманойдов</content>
+  <content contentuid="h9fc3689cge336g2feegd6a4g263db9291e1a" version="1">Данное заклинание не действует на всех существ, кроме гуманойдов</content>
+  <content contentuid="he78bae08g8776g87d5g3223gdc698b3451c4" version="2">Служение Высшему Существу</content>
+  <content contentuid="h086fb9c0g1799g3a1cg510fg2c825c2398fa" version="2">Повторное применение без затрат ячеек заклинаний.</content>
+  <content contentuid="hd630af88ge24cgd5b9ga0f1gd4ba58a8de43" version="1">Повторное применение</content>
+  <content contentuid="h62d38df1g4540gd835g99ffge182a90c8c15" version="2">Повторное применение без затрат ячеек заклинаний.</content>
+  <content contentuid="h6a5e0059g8403gc868g8e61g8e680fb226c8" version="1">Служение высшему существу</content>
+  <content contentuid="ha09f4703g4f68ga836g0ab6g7a7350fd6ef3" version="1">Reapply Hex (Strength)</content>
+  <content contentuid="h30e1a8bfgcd57ga160g8616g6db3aebc4dd7" version="1">Deal an additonal [1] when you attack the target and impart &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="hdf26bd5agf343g1f7cgc8d4gcf99b4365cb5" version="1">Hex (Strength)</content>
+  <content contentuid="hd67c52fbg2469g5416gfdb9g9068a0d5dfcc" version="1">Deal an additonal [1] when you attack the target and impart &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="hfe0bcbc4g8f8dgb337ga0d5gae7e724689ca" version="1">Hexed: Strength</content>
+  <content contentuid="h3dc2c101gc795gccf3gd661g5dabcdac2681" version="1">Creature suffers an additional [1] from the spellcaster. It also has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h6bdc7ff5gb355gfae5g2a74g7f5779e5b9c5" version="1">Reapply Hex</content>
+  <content contentuid="h2f931aa7gce03g1a85g3bc0ge110e9d76a61" version="1">Can cast Hex without expending a new &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+  <content contentuid="hb90224f4g5a5fgdb0ag60e6gc19293b29536" version="4">На врага будет наложена &lt;LSTag Type="Status" Tooltip="ENSLAVEMENT"&gt;Рабская метка&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Если существо умрёт во время действия этого эффекта, заклинение можно будет применить повторно без затрат ячеек.</content>
+  <content contentuid="h2af9fb21gf8fcge106g824eg345c6832df85" version="1">Взрыв сознания</content>
+  <content contentuid="h3c71bcd5g340fg2cedg8c24g1db518496614" version="1">Поразить существо всплеском всионической энергии.</content>
+  <content contentuid="h0e358684g92ecgf2d8gb3ecg86a0852f9321" version="1">На этот фокус работают пассивки ЭЛДРИЧБЛАСТА</content>
+  <content contentuid="hce257a54g37b3g39f5g3c37g9850c4ad76e0" version="1">Взрыв сознания</content>
+  <content contentuid="h12bbb4aag7b40ge901gdf7dg111a0e34bbde" version="3">Выпускает [1] заряд(а) псионической энергии.</content>
+  <content contentuid="h424fcbf1g25ccgf239gbf6dg7861dc36b129" version="1">Eldritch Blast</content>
+  <content contentuid="h4b378177ged54g7a1bgc389g82ce7129da31" version="1">Conjure [1] beam(s) of crackling energy.</content>
+  <content contentuid="hb5aee5d5gc1bbgbf70g76d4gf77234c782d4" version="4">Импринт: Перенос узора</content>
+  <content contentuid="h4ebcabd6g2cbbg41acg13cegcae8218fa77c" version="13">Дарует следующую особенность:&lt;br&gt;Копирует и адаптирует &lt;LSTag Type="Passive" Tooltip="AgonizingBlast"&gt;Мучительный разряд&lt;/LSTag&gt; под фокус &lt;LSTag Type="Spell" Tooltip="Projectile_MIND_BLAST_CANTRIP"&gt;Взрыв сознания&lt;/LSTag&gt;.</content>
+  <content contentuid="h9c2274b4g3837g2a78gacb7ge7cf6609db5d" version="5">Импринт: Подавление</content>
+  <content contentuid="h71d1ca93ge638g7b61gc31fgbeaaedec0d05" version="11">Дарует следующую особенность:&lt;br&gt;При атаке фокусом &lt;LSTag Type="Spell" Tooltip="Projectile_MIND_BLAST_CANTRIP"&gt;Взрыв сознания&lt;/LSTag&gt;, с небольшим шансом может наложить состояние &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Оглушения&lt;/LSTag&gt;.</content>
+  <content contentuid="hdbffa8f4g0c74g49c0gd962g9b22333cc776" version="1">Властитель Разума</content>
+  <content contentuid="h294e2c53g1969g48b7gfffega91eee95d769" version="1">Вы заключили сделку с сущностью, что отвергла саму смерть. Иллитилх — бессмертный изгой-иллитид, чей разум плетёт паутину за пределами времени, — вложил в вас осколок своей псионической сущности. Вы чувствуете, как чужая воля шепчет вам из глубины сознания, одаривая ментальной силой, что сокрушает разумы и искажает реальность. Но за каждую украденную у вечности тайну ваша собственная сущность медленно расползается по швам.</content>
+  <content contentuid="h36ab5c5eg303cg9363g5b55gaf48e9162157" version="1">The Great Old One</content>
+  <content contentuid="h54b46f67g9c1fg55dfgc6f1g7430863d6853" version="1">You pledged something unthinkable to an unspeakably ancient entity - which in return furnished you with powers of cerebral entropy and control.</content>
+  <content contentuid="h6dd7b6fdg8396g1ff2g953bgc71da52be32c" version="2">Властитель разума</content>
+  <content contentuid="hf0b1620bg08aegb26egf575g4841dfd1e189" version="2">Вы заключили сделку с сущностью, что отвергла саму смерть. Иллитилх — бессмертный изгой-иллитид, чей разум плетёт паутину за пределами времени, — вложил в вас осколок своей псионической сущности. Вы чувствуете, как чужая воля шепчет вам из глубины сознания, одаривая ментальной силой, что сокрушает разумы и искажает реальность. Но за каждую украденную у вечности тайну ваша собственная сущность медленно расползается по швам.</content>
+  <content contentuid="hdc641043g2f02ga00dgdf2fg9f31da6e7ae6" version="1">Warlock</content>
+  <content contentuid="h6de40d9cgc6aeg95c8gfd91g46b64470b10b" version="1">Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.</content>
+  <content contentuid="h70579ebaga9dag636ag1a0bg5e98701d9121" version="1">Ментальный барьер</content>
+  <content contentuid="h2b7cd39bg6cdcg5b9fg22edgf7a7396db1eb" version="1">Ментальный барьер</content>
+  <content contentuid="ha98c31d9g3325g8426gab7bg1224e17120cc" version="1">Деф пси урона \ Преим. в Мудрости и интелекта \ ДОДЕЛАТЬ</content>
+  <content contentuid="h32353eaagb77ege8d6g6046g3fa087fe37e4" version="1">Ментальный барьер</content>
+  <content contentuid="hd13eec11g4b11gdaafg5564g55293a606fc9" version="9">Вы обладаете &lt;LSTag Tooltip="Resistant"&gt;Устойчивостью&lt;/LSTag&gt; к психическому урону.&lt;br&gt;&lt;br&gt;Даёт &lt;LSTag Tooltip="Advantage"&gt;Преимущество&lt;/LSTag&gt; в &lt;LSTag Tooltip="SavingThrow"&gt;Испытаниях&lt;/LSTag&gt; &lt;LSTag Tooltip="Wisdom"&gt;Мудрости&lt;/LSTag&gt;, &lt;LSTag Tooltip="Intelligence"&gt;Интеллекта&lt;/LSTag&gt;, а так же в &lt;LSTag Tooltip="AbilityCheck"&gt;Проверках&lt;/LSTag&gt; на запугивание.</content>
+  <content contentuid="hf037d716gf397g75efgf596gd459b0104fc1" version="1">Agonising Blast</content>
+  <content contentuid="h9ce5be5cg25b3gd406g5910g37b894c0da98" version="1">When you cast &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, add your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage it deals, unless it is negative.</content>
+  <content contentuid="hc1b507fcg9b66g3a41gd28cge60457ea7ab4" version="1">Agonising Blast</content>
+  <content contentuid="h2e6c2ec6g8df9g5fd6g5841g1d70f06b4c23" version="1">When you cast &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, add your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage it deals, unless it is negative.</content>
+  <content contentuid="h9ffda495g9fcagc37dg3e23g20e4d2bd4f48" version="5">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Распространяется на все источники урона.</content>
+  <content contentuid="hffe1f420g7e27g06c4g5e83gea4efccdebe2" version="1">При атаке фокусом &lt;LSTag Type="Spell" Tooltip="Projectile_MIND_BLAST_CANTRIP"&gt;Взрыв сознания&lt;/LSTag&gt;, с некоторым шансом может наложить состояние &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Дезориентации&lt;/LSTag&gt;.</content>
+  <content contentuid="h6b4f07beg9ebdg2888gfd33gdf42f2f86df5" version="4">Вы обладаете &lt;LSTag Tooltip="Resistant"&gt;Устойчивостью&lt;/LSTag&gt; к психическому урону.&lt;br&gt;Также даёт преимущество в &lt;LSTag Tooltip="SavingThrow"&gt;Испытаниях&lt;/LSTag&gt; &lt;LSTag Tooltip="Wisdom"&gt;Мудрости&lt;/LSTag&gt; и &lt;LSTag Tooltip="Intelligence"&gt;Интеллекта&lt;/LSTag&gt;.</content>
+  <content contentuid="habf2a1c7g3bd4g0118g3ed8g9f7f0229e92c" version="1">Вмешательство покровителя в ваш разум оставило свой след...</content>
+  <content contentuid="hcb3948bdg08bbg7452g4fe4gb2c830133c3a" version="1">Если существо умрёт во время действия заклинания, его можно будет применить повторно без затрат &lt;LSTag Tooltip="SpellSlot"&gt;Ячеек заклинаний&lt;/LSTag&gt;.</content>
+  <content contentuid="h390067a1g7a40gf16bgbf82g7d01451c866b" version="2">Импринты</content>
+  <content contentuid="h61677c8dg4c27g917dg396egc1a5d29a1d26" version="1">Крутое и загаточное описание.</content>
+  <content contentuid="h7c74b4ffgff0fg545agd591gece7c2f8b183" version="7">Импринты - отпечатки покровителя, выжженные в твоём сознании. С каждым ты становишься сильнее. Могущественнее. Совершеннее.&lt;br&gt;
+Покровитель вкладывает в тебя не просто знания - он вкладывает частицу своей ужасающей сущности. С каждым новым импринтом твои эмоции меркнут, мораль стирается, разум освобождается от всего лишнего. Остаётся лишь алчность. Тебя не учат - тебя перезаписывают.&lt;br&gt;
+Главный вопрос не в том, достигнешь ли ты могущества. Вопрос в том, сможешь ли ты, глядя в зеркало, узнать того, кто на это могущество согласился.</content>
+  <content contentuid="h7f0acaa3g8cedgadb2g22aeg54e02c378b11" version="1">Импринты - отпечатки покровителя, выжженные в твоём сознании. С каждым ты становишься сильнее. Могущественнее. Совершеннее.</content>
+  <content contentuid="h3609152dg9f88g09b1g5837g26c887c9248c" version="1">Импринты - отпечатки покровителя, выжженные в твоём сознании. С каждым ты становишься сильнее. Могущественнее. Совершеннее.</content>
+  <content contentuid="h6beff6a8g8128g613fg7c9egbc3dd7322f3e" version="2">Импринт: Подавление</content>
+  <content contentuid="hf766dcc5gb8d4g9964g07b1gdcee1cbd1c13" version="4">Дарует следующую особенность:&lt;br&gt;При атаке фокусом &lt;LSTag Type="Spell" Tooltip="Projectile_MIND_BLAST_CANTRIP"&gt;Взрыв сознания&lt;/LSTag&gt;, с небольшим шансом может наложить состояние &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Оглушения&lt;/LSTag&gt;.</content>
+  <content contentuid="h6390fbcdg9638g51a7g4505g5a1081aedfee" version="4">Иллитидский голод</content>
+  <content contentuid="h616f6273g7c88g6bb0gba0fg2d05c6c0ef23" version="1">Try to extract the brain of a Stunned or Unconscious creature.</content>
+  <content contentuid="h4812c766g8801gde1eg00a3ge87f2eb883df" version="4">Аура Пожирателя Знаний</content>
+  <content contentuid="hbe07c258g394fg780fg5e1eg5fef6220d6e4" version="1">Дарует следующую особенность:&lt;br&gt;Открывает способность - мяу</content>
+  <content contentuid="h23053681g02cfg7937g2029g797be6ab326a" version="1">Вы стали настолько жадными до знаний, что готовы впитывать их из любых источников...</content>
+  <content contentuid="hfe5c498fg8b15g193cgb67fg33f5e5d00791" version="1">Импринты - отпечатки покровителя, выжженные в твоём сознании. С каждым ты становишься сильнее. Могущественнее. Совершеннее.</content>
+  <content contentuid="h6498bc8ag3340g9ea6g7070gde259493c321" version="2">** Псионическая перегрузка [StackCount]</content>
+  <content contentuid="hd8eff0a6g1f3eg8970g5a09gff1ed039ad3b" version="1">В зависимости от стаков, накладывает разные негативные эффекты</content>
+  <content contentuid="hde6e3aa7gc86cg69cfgf392gdac227dc209a" version="1">Помеха ловкости</content>
+  <content contentuid="h1d160e4fgd641gf53dg9befg9a256371a37f" version="1">Псионическая Блокада</content>
+  <content contentuid="h3c2bbf21g13adg0364g0d6eg986cbf7a6b6a" version="1">Полные стаки</content>
+  <content contentuid="hae415bb7g5589g2c9dge020g0a04c922cb3b" version="1">Чек 6 стака</content>
+  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="103">Иллитид-Лич</content>
+  <content contentuid="h7cc1d48fga4eagc043ga463g194eb98f238f" version="1">Лик Покровителя</content>
+  <content contentuid="h7550ce89gfbc5g5b90gb2e2gb18cfded31ec" version="2">Отдаться полностью во власть покровителя...</content>
+  <content contentuid="h7c229646g208egaeb8gdc7agcba6b8e63406" version="1">Лик Покровителя</content>
+  <content contentuid="h75c4663ag1e02g9b2egf190ge19877724c2b" version="1">Описание</content>
+  <content contentuid="hdef7d848g1e97geb8eg9ba3g348a7bd56d11" version="1">Mind Flayer Form</content>
+  <content contentuid="h7c504f2cg4b79g198cg7760gcb6df7846485" version="1">Affected entity has embraced ceremorphosis and become a mind flayer. </content>
+  <content contentuid="hc01ee979g9ca2ga59bge108g029431a09202" version="1">Wild Shape: Badger</content>
+  <content contentuid="h2fa2ca60gb2f4g0be7g297dgeda5a490291c" version="3">Отбросить Облик</content>
+  <content contentuid="h338992fbgd165gc145g6209g33aca730b98e" version="3">Отбросьте облик и вернитесь в свой первозданный, несовершенный вид.</content>
+  <content contentuid="h896e328dgd5ecgfedfg40fcgd5e15324a4d7" version="1">Tentacle Whip</content>
+  <content contentuid="h26332c92gc4e4g0366gc769ga2ad5ab8c0ad" version="1">Lash out with your tentacles and possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt; your target.</content>
+  <content contentuid="h8e37ebdbg4f1cgb0b4gd08eg5b72951919a0" version="1">Tentacle Whip</content>
+  <content contentuid="h795d6ec0g08feg9dadgf73dga63d5f03be6c" version="1">Lash out with your tentacles and possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt; your target.</content>
+  <content contentuid="h64b39df0g2527g43a4g5e60g26dddd5aade3" version="1">Main Hand Attack (Multiattack)</content>
+  <content contentuid="h78b6919bg7c8dgea89ge677g299e7181be9a" version="3">Удар Щупальцем</content>
+  <content contentuid="h72fe647cgd8c7g98a9g5a5cg9355307e43a1" version="1">Lash out with your tentacles and possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt; your target.</content>
+  <content contentuid="h36b9d1e0g4ff5g26bcg0c0bge2ab8929e43d" version="3">Извлечь Мозг</content>
+  <content contentuid="h08a00c96gf4cdge8d5gb505g68941ea4e147" version="2">Try to extract the brain of a Stunned or Unconscious creature. (Захавать мозг у - Порабощенного, очарованного, огрушенного или существа без сознания)</content>
+  <content contentuid="hc2cc8239ga992g244bgbe95g8c250b7ab409" version="3">Абсолютное Подчинение</content>
+  <content contentuid="h38de8ab1g1e92g8d9fgb831gbb4c65c086b7" version="1">&lt;LSTag Type="Status" Tooltip="DOMINATE_PERSON"&gt;Dominate&lt;/LSTag&gt; a nearby humanoid. Allies are unaffected.</content>
+  <content contentuid="h1bbaea20g9530g04f4g323ag922150595ab9" version="1">Each time the dominated creature takes damage, it may repeat the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against your domination.</content>
+  <content contentuid="h8f9d52b7gab4egda1dgd42ag94f8961700b8" version="4">Аура: Пожиратель Знаний - Заклинатель</content>
+  <content contentuid="h2ab20681gb219g4de6g217cg3a00789db765" version="2">Ближайшие враги имеют &lt;LSTag Tooltip="Disadvantage"&gt;Помеху&lt;/LSTag&gt; на броски атаки и &lt;LSTag Tooltip="SavingThrow"&gt;Испытания&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Существа, которые не могут быть &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Испуганы&lt;/LSTag&gt; не подвергаются эффекту.</content>
+  <content contentuid="hc76bb6a6g1750gd1cdgce52gc86879f1d970" version="4">Аура: Пожиратель Знаний - Жертва</content>
+  <content contentuid="h3813d09egf16egde98g2a2fgf2616747c150" version="1">Bane's oppressive aura gives the affected entity &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on attack rolls and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while within [1] of the spellcaster.</content>
+  <content contentuid="hc7d5b879g5f42g4797g1cf0gde67b14f90f0" version="3">Аура: Пожиратель Знаний</content>
+  <content contentuid="hfbdcb0fbg5254gc675g1764g55ae74b4856b" version="2">Даёт врагу &lt;LSTag Tooltip="Disadvantage"&gt;Помеху&lt;/LSTag&gt; на броски атаки и &lt;LSTag Tooltip="SavingThrow"&gt;Испытания&lt;/LSTag&gt; пока они находятся не дальше, чем в 10 метрах от вас. </content>
+  <content contentuid="hf53d889dg1ee1g6925g9b96g61df4f8764ea" version="2">Существа, которые не могут быть &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Испуганы&lt;/LSTag&gt; не подвергаются эффекту.</content>
+  <content contentuid="h46f00599g31a2g2510g587fg6ce224ca73ce" version="5">Аура: Отчаяние: - Заклинатель</content>
+  <content contentuid="h8832986ag211cg26aagcae2gfc72e368002b" version="2">Ближайшие союзники дополнительно наносят [1], пока не отойдут достаточно далеко от заклинателя.</content>
+  <content contentuid="h0f6e023fga662gefafg9a92g9276a89b14f4" version="5">Аура: Отчаяние - Союзник</content>
+  <content contentuid="h8393360bga1e9g15e3g0caeg745ae80887cf" version="2">Пока вы не отошли достаточно далеко от заклинателя, вы дополнительно наносите [1].</content>
+  <content contentuid="hea4e1bddgc7edg5572g9e35gb0fe844efca7" version="2">Аура: Отчаяние</content>
+  <content contentuid="h095e814eg0733g1e59g2424g363c4f257f17" version="7">Поделитесь частичкой силы своего покровителя.&lt;br&gt;&lt;br&gt;Все, кто считается союзником - наносят дополнительно [1]. &lt;br&gt;&lt;br&gt;ДОПИСАТЬ - Также, все те, кто  проваливалит бросок атаки и промахнется, получит [2].</content>
+  <content contentuid="hbe996a95g1e31ga928g8049g00c09b4cb66b" version="1">The Closed Fist of Bane</content>
+  <content contentuid="h7838c45dga0edgb94bg2a04g00b40b9c8162" version="1">Conjure the divine aspect of Bane the Accursed - a fist that hangs in the air until the end of the round before falling, crushing anyone under it for [1].</content>
+  <content contentuid="h5dded480g25cbgc92eg89f6ge07f16222db5" version="2">%%% СПРЯТАТЬ Страх неудачи</content>
+  <content contentuid="h9a8aa532g6379g0802g21b3g5cff4fd29908" version="2">Когда враг проваливает бросок атаки и промахивается, он получает [1].</content>
+  <content contentuid="h17c0d8acgbc65g3a62gfc70gd4510e05ff5c" version="1">Переключить отображение Ауры</content>
+  <content contentuid="hde0d3129g25e9g3d69g2137gd5c126f89339" version="3">Отображение Ауры</content>
+  <content contentuid="hd4e6e04ag95b9gefccg48f1ged99560642ed" version="1">Вкл\Выкл - Отображение Ауры.</content>
+  <content contentuid="h310d5086gf631gf1f5g7a4cg6fbd5db6205d" version="3">%%% (СПРЯТАНО) Отображение Ауры</content>
+  <content contentuid="h98289eb8gd797g934eg862dgeef792d96a38" version="4">%%% (СПРЯТАНО)</content>
+  <content contentuid="hd4376553g3ae0g3ecbg90f7g36c667da28e0" version="1">Demonspirit Aura</content>
+  <content contentuid="h3f4689efgabedg8151g0bd4g5b4b3ac80271" version="1">The wearer's summoned creature has resistance to all damage except [1].&lt;br&gt;&lt;br&gt;At the start of the summoned creature's turn, it must succeed a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be driven &lt;LSTag Type="Status" Tooltip="CROWN_OF_MADNESS"&gt;Mad&lt;/LSTag&gt;.</content>
+  <content contentuid="hbe6c6bbagd884gabbcgced6g3edbb58a7d07" version="1">Wild Shape: Panther</content>
+  <content contentuid="h0322639ag9d91g8b5fg37f9gca773f9656f8" version="5">Проклятие: Тень Послушания</content>
+  <content contentuid="h63a26736g089egb9edgfc25g7d3588750c48" version="10">Умерев в бою, под действием проклятия, существо получит состояние - &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верный слуга&lt;/LSTag&gt;.</content>
+  <content contentuid="h8e69b333g070eg2a26ge115g0d836fcee43e" version="4">Верный слуга</content>
+  <content contentuid="hc9df5452gf84agacf0ge985ge8db8ad385d7" version="15">Под воздействием проклятия, существо вернулось с того света, в виде безвольной оболочки, и будет сражаться за вас до конца боя.&lt;br&gt;&lt;br&gt;Существо обладает уменьшенным значением &lt;LSTag Tooltip="HitPoints"&gt;Очков здоровья&lt;/LSTag&gt; и &lt;LSTag Tooltip="ArmourClass"&gt;Класса брони&lt;/LSTag&gt;. Его &lt;LSTag Tooltip="Intelligence"&gt;Интеллект&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Мудрость&lt;/LSTag&gt; и &lt;LSTag Tooltip="Charisma"&gt;Харизма&lt;/LSTag&gt; также были снижены на 5.&lt;br&gt;&lt;br&gt;Дополнительно наносит [1] при атаках.&lt;br&gt;&lt;br&gt;При повторной гибели или по завершению боя - душа оставит своё бренное тело, без возможности вернуться повторно.</content>
+  <content contentuid="h4b838e94g0fe0g15a6ge660g6656e2d70ad8" version="4">Тень Послушания</content>
+  <content contentuid="h7a0ddd85gb97cg3b0cg76edg63dcc3f6c596" version="5">Даже после смерти - ваша воля АБСОЛЮТНА.&lt;br&gt;Если существо умрёт - оно воскреснет и будет сражаться на вашей стороне.</content>
+  <content contentuid="h20e9521ag2dc8gc5e1g7c19gf9222ff826ac" version="2">Тень Послушания</content>
+  <content contentuid="ha0bb0206g9928g6d48gfe94g506951da7ae3" version="2">Существо воскреснет через 2 хода и дубет сражаться на вашей стороне</content>
+  <content contentuid="h2778e30cg8770g390bgaaa9g4b894e1355dc" version="3">Тень Послушания</content>
+  <content contentuid="h576a9792g10c2ga431gf53dg1f4bae3b04a3" version="5">Существо воскреснет и будет сражаться на вашей стороне.</content>
+  <content contentuid="hee7107e8g9c13g3045gdbf4geaf1ecb69f6a" version="1">Avatar of Tyranny</content>
+  <content contentuid="heb50e588g57f6g5eb4gbf1cg6149e99b3ad8" version="1">Bane has come to Gortash's aid! Gortash has [1], advantage to Strength Saving Throws and Strength Ability checks... And now has fearsome new powers!</content>
+  <content contentuid="hf6ee54e4gba0ag5f96g4d57g64144a56c9d2" version="5">Умерев в бою, под действием проклятия, существо получит состояние - &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верный слуга&lt;/LSTag&gt;.</content>
+  <content contentuid="h6cc5620bg62fcg7dd3gf2a4g48fa43913a82" version="1">Shadow-Cursed Undead</content>
+  <content contentuid="hd7fa17b8ga388gd407gfc63g1c92bf253460" version="1">Those who die in the shadows are cursed to remain there forever.&lt;br&gt;&lt;br&gt;These undead have reduced hit points and &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;, are &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Radiant damage, have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage, and cannot use spells or weapon actions.</content>
+  <content contentuid="hc206cd8fg62dfg8864g5243g5cc0f78d4a83" version="3">При повторной гибели - душа оставит своё бренное тело, без возможности вернуться повторно.</content>
+  <content contentuid="hc4df49ecg6b50g9fd4g2b5cg90d96fc96131" version="1">Form of Dread</content>
+  <content contentuid="hae270329gc861g1789g928ag5bb93b63f5af" version="1">Manifest some of Vlaakith's power and appearance.</content>
+  <content contentuid="h22701437g52a7g2ac6g4d1cgf658ab41b180" version="1">You gain [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time you attack a foe, that foe can become Frightened for 1 turn.</content>
+  <content contentuid="h43895499gecbdg940dg3c13g381a9362c949" version="1">Form of Dread</content>
+  <content contentuid="hcc8f889fg41b4g968dg8e55g800daf88ebe8" version="1">The Ch'r'ai has [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time she attacks a foe, that foe can become Frightened for 1 turn.</content>
+  <content contentuid="hbc98c9a9g469dgd711g6cbdg6604d2e2fda5" version="2">Шёпот Истинного Ужаса</content>
+  <content contentuid="hf93bc0dfgd35cg1145g63e0g7aa3c5281536" version="1">The Ch'r'ai has [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time she attacks a foe, that foe can become Frightened for 1 turn.</content>
+  <content contentuid="hbf34e88ag8e77ged47gfa53g640194ea6738" version="3">%%% НЕ ЗАБЫТЬ ВПИСАТЬ Эхо Бездны</content>
+  <content contentuid="he76fb61fgdd61gec4eg50beg9c4d4ada5d36" version="6">При нанесении психического урона, дополнительно нанесите [1].</content>
+  <content contentuid="h114f4e71gcf2ag9d43g0291ge3ac65a9e03b" version="2">При нанесении некротического урона, дополнительно нанесите [1].</content>
+  <content contentuid="hac641544g5d9fg66e0g56cagc180e540a935" version="1">Вмешательство покровителя в ваш разум оставило свой след...</content>
+  <content contentuid="h45a4b034g1484g8ed6g10beg1be493e1db18" version="1">Шёпот Истинного Ужаса</content>
+  <content contentuid="h30a635f0gff1bg1598gd127g575ba5d82612" version="2">ФОРМА+АБИЛКИ %%% ДОПИСАТЬ ЧТО (ВОЗМОЖНО) ДАЁТ ИСПУГ ПРИ АТАКАХ И ВРЕМЕННЫЕ 15 ОЗ</content>
+  <content contentuid="ha80a50f4gb04dg54e1gfe1cg1c94516d6ce0" version="2">%%% Шёпот Истинного Ужаса</content>
+  <content contentuid="h4f52131fg55a4g7185g78b1gcf8adf5b89be" version="2">The Ch'r'ai has [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time she attacks a foe, that foe can become Frightened for 1 turn. %%% Условия для испуга</content>
+  <content contentuid="he9ed2b16gb4c5g7b7dg5f42gf5e787cea27c" version="3">Аура: Отчаяние - Враг</content>
+  <content contentuid="hd1fcfa4dg1dfcgd001gc8e2g6ac4ce282414" version="2">Когда враг проваливает бросок атаки и промахивается, он получает [1]</content>
+  <content contentuid="h13eb1ca9g5a9ag27e4g1892g403ee8af3267" version="1">%%% Разблокирует "Отбросить облик Патрона"</content>
+  <content contentuid="h1429e0afg4379gd6a3gbfd4gb53e6d2e688b" version="1">%%% (СПРЯТАНО)</content>
+  <content contentuid="hb49aabedg62edg8f74gf3ecg2892d6325486" version="1">Полёт</content>
+  <content contentuid="hbe2a7832gc9ddg2943g141age2ecb0b81b66" version="1">Подлететь к месту назначения.</content>
+  <content contentuid="h366eaec9ga4a6g27eagd45fg59c3e6ac5fa5" version="1">Отголосок Знания</content>
+  <content contentuid="h258bd11ag3d21g3f8egf200g99d44ecbd70c" version="2">Ресурс для использования заклинаний</content>
+  <content contentuid="h19702b3egff3eg6ca8g7fafg26b1c15bf1c8" version="1">Отголосок Бездны</content>
+  <content contentuid="h0af46447g7514ge5a0g9ff3ga94937ccc70a" version="1">Ресурс для превращения в патрона</content>
+  <content contentuid="h08fe2a53g6ee5g0829gfccag28a96a8d4d1e" version="2">Жнец Душ</content>
+  <content contentuid="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="2">Нанести некро урон и вылечится на половину от него - иначе нанести только половину урона</content>
+  <content contentuid="h11af987cge616g64ffgee06gaaa657c11c54" version="1">%%%|Mindsteal Link|</content>
+  <content contentuid="h4630b976g5c66g529dg086ag5617b652a7de" version="1">%%%|Hidden: Suffers from a Mindsteal Link from the Inquisitor|</content>
+  <content contentuid="h9954382fg0dccg46f6g8949g3024f5e9c0fc" version="2">%%% ТЕСТ ЭФФЕКТ</content>
+  <content contentuid="h5c87ad7fg23fag4e3eg4f40g744e086289bd" version="2">%%% ОСНОВА - ЛИНК ИНКВИЗИТОРА</content>
+  <content contentuid="ha4002ad0g0e1dg9445gfbb0g7a4509dd3099" version="2">Notes on Mind Flayer Anatomy</content>
+  <content contentuid="h989d688bg3ba7g3801g3d15gb6c426e00445" version="1">Броня Мастера Разума</content>
+  <content contentuid="h500e5192g83aeg67fbgc8f4g77dec12c9090" version="1">The little tentacle engravings are a nice touch. </content>
+  <content contentuid="h462697d4g801fg33c1gd4abg566c9da7fa6b" version="1">Сапоги Мастера Разума</content>
+  <content contentuid="h8418c96dg4cd5g7f19gfab3g7c9716793de6" version="1">Перчатки Мастера Разума</content>
+  <content contentuid="h587edc4dg4c64g41c4ged9bgb0188b9c65b2" version="1">The taut violet leather is drier than snakeskin, and puckered at each knuckle with shallow mouth-shaped pits. </content>
+  <content contentuid="h050832ebg650fg2585gd74cg6a82fe53da1a" version="1">Обруч Мастера Разума</content>
+  <content contentuid="h285b165dgded6gba54ge723ge3fb6fd821bc" version="1">You get the eerie feeling that the jewelsmith used more than alien metals to forge this circlet - something like ancient magic, or shards of a soul.</content>
+</contentList>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object color="#FF2E8B57" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_29" />
+        <field name="UUID" type="IdTableFieldDefinition" color="#FF2E8B57" value="4d46cd2c-4789-4a23-8b24-63cd525c6d45" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Warlock" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" color="#FF2E8B57" value="SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared)" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="8f3bdaa0-3fce-4090-aede-3a5f1c387468" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedWarlockSpellSlotLevel1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_32" />
+        <field name="UUID" type="IdTableFieldDefinition" color="#FFA52A2A" value="a7de6798-ad25-4387-9524-187e1cc7bece" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" color="#FFA52A2A" value="AddSpells(2f5e9a0b-f9ed-455a-9fba-0234bf457911)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="MIND_MASTER_BARRIER_PASSIVE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f9a4847a-ed5f-4440-8070-12bd31f576fc" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);SelectPassives(45221118-726f-459b-bb4f-24014a4ad39a,2,ImPrints);AddSpells(22cfa5bf-f158-4810-8569-3b1b54e7981d)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(EchoOfVoid,2,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="61515fc8-7b3d-4715-9312-e157c3477471" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(e20aeb45-a1f6-4846-af28-a9d54785e34a)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c99f3763-7075-4e62-ac76-65b6893f9afd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(a72ee08f-2052-4d1d-bd9b-a433f879b53c)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e52126f1-7c7e-44eb-9076-32df7793a6e9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(a55cab65-4471-45ef-bd27-dc281cc8cdb7);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d23cfbd-d049-42fd-8195-03e753701343" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(53cdd952-aae8-4675-9455-4677008229fa)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="04170619-8491-4578-96e1-39505a67dd9a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(418dc85c-6049-4a98-8999-cb5222d13651)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5546329b-1efe-48c1-aeea-a36d84ee4d3c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(7027f832-667d-4c6b-a740-578e1edc15d1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c57a5f7d-50aa-4736-beb2-23e8d5d9d618" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(178848bd-8ec2-44a9-b38d-62e6baa1187a)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c036fe2c-5417-4ecd-a8cb-d077058b7a9e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(1e4e2a7d-884e-4cd0-8f72-79dc50c0490d)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="530f1fbe-6f90-4a07-a7b2-641f660f91d6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(1cb7b928-c4f0-44cf-9720-7b6d5bc67327)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a23d095e-e944-4962-a357-80e3876b46be" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="FSName" type="StringTableFieldDefinition" value="MindMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(0749f44f-74d6-4d02-82df-54652a4d3aee)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

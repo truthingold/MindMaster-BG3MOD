@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="67731907-4ad8-4be6-9326-d6f5b982140e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b10ec589-ef53-499f-863a-eafbf79b9155" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF32CD32" value="MIND_BLAST_CANTRIP" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="DeathType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Death Type" version="1" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(EldritchBlast)" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10, Psychic, Magical);IF(HasPassive('MIND_BLAST_ENVOCATION_PASSIVE2', context.Source)): ApplyStatus(MIND_BLAST_PASSIVE_ATTEMPT, 100, 0);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not HasActiveStatus(context.Source, &quot;PSIONIC_OVERLOAD_BLOCK&quot;);" />
+        <field name="CastTargetHitDelay" type="IntegerTableFieldDefinition" value="110" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMBlast3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10,Psychic)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;821615de-23e4-4022-b8aa-b7977b071329,,;5a0d43d4-0aa3-4419-a44d-b40889925196,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand;DisplayDamageModifiers;HasSomaticComponent;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3cda2849-1bc6-4fe3-af70-19936e31959f" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="3b753bb2-f59d-42ad-8918-ee03984b7098" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce257a54g37b3g39f5g3c37g9850c4ad76e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h12bbb4aag7b40ge901gdf7dg111a0e34bbde" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(EldritchBlast)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

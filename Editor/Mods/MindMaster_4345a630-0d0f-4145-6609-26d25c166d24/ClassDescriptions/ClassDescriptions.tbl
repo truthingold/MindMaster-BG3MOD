@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a86b6e82-0a7f-47cb-bff1-a0a6d161fa30">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+        <field name="UUID" type="IdTableFieldDefinition" color="#FFA52A2A" value="8f3bdaa0-3fce-4090-aede-3a5f1c387468" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MindMaster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6dd7b6fdg8396g1ff2g953bgc71da52be32c" version="2" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0b1620bg08aegb26egf575g4841dfd1e189" version="2" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Warlock" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="32879c22-4858-48ef-8f8d-22e6d395b396" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="MINDMASTER_WARLOCK_START_EQUIP" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

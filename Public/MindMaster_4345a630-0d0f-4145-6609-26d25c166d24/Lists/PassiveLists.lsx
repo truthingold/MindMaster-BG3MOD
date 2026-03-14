@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Imprint Level 2"/>
+                    <attribute id="Passives" type="LSString" value="MIND_BLAST_ENVOCATION_PASSIVE1,MIND_BLAST_ENVOCATION_PASSIVE2"/>
+                    <attribute id="UUID" type="guid" value="45221118-726f-459b-bb4f-24014a4ad39a"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Imprint Level 4"/>
+                    <attribute id="UUID" type="guid" value="5ad9a8d4-fcff-4330-91ea-4ae9cc149fb7"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Imprint Level 6"/>
+                    <attribute id="UUID" type="guid" value="341deb0a-7c41-4193-a34d-88dae955c5b3"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Imprint Level 8"/>
+                    <attribute id="UUID" type="guid" value="17a0415e-5517-4a6d-9b69-fda58d3fb17f"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Imprint Level 10"/>
+                    <attribute id="UUID" type="guid" value="b35f3dd4-0525-4366-bed9-4ff77fe61996"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Imprint Level 12"/>
+                    <attribute id="UUID" type="guid" value="e9bf8b50-c79f-4a64-810d-3a5050adb123"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

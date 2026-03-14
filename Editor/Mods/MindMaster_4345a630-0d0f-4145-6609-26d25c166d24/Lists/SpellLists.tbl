@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" color="#00FFFFFF" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
+        <field name="Name" type="NameTableFieldDefinition" color="#00FFFFFF" value="Warlock MasterMind Subclass Level 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_MIND_BLAST_CANTRIP" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22cfa5bf-f158-4810-8569-3b1b54e7981d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_SUPREME_BEING_SPELL;Shout_PATRONFACE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e20aeb45-a1f6-4846-af28-a9d54785e34a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a72ee08f-2052-4d1d-bd9b-a433f879b53c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a55cab65-4471-45ef-bd27-dc281cc8cdb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53cdd952-aae8-4675-9455-4677008229fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="418dc85c-6049-4a98-8999-cb5222d13651" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7027f832-667d-4c6b-a740-578e1edc15d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="178848bd-8ec2-44a9-b38d-62e6baa1187a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e4e2a7d-884e-4cd0-8f72-79dc50c0490d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cb7b928-c4f0-44cf-9720-7b6d5bc67327" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0749f44f-74d6-4d02-82df-54652a4d3aee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Level 12" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 1"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_MIND_BLAST_CANTRIP"/>
+                    <attribute id="UUID" type="guid" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_SUPREME_BEING_SPELL;Shout_PATRONFACE"/>
+                    <attribute id="UUID" type="guid" value="22cfa5bf-f158-4810-8569-3b1b54e7981d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 3"/>
+                    <attribute id="UUID" type="guid" value="e20aeb45-a1f6-4846-af28-a9d54785e34a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 4"/>
+                    <attribute id="UUID" type="guid" value="a72ee08f-2052-4d1d-bd9b-a433f879b53c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 5"/>
+                    <attribute id="UUID" type="guid" value="a55cab65-4471-45ef-bd27-dc281cc8cdb7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 6"/>
+                    <attribute id="UUID" type="guid" value="53cdd952-aae8-4675-9455-4677008229fa"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 7"/>
+                    <attribute id="UUID" type="guid" value="418dc85c-6049-4a98-8999-cb5222d13651"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 8"/>
+                    <attribute id="UUID" type="guid" value="7027f832-667d-4c6b-a740-578e1edc15d1"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 9"/>
+                    <attribute id="UUID" type="guid" value="178848bd-8ec2-44a9-b38d-62e6baa1187a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 10"/>
+                    <attribute id="UUID" type="guid" value="1e4e2a7d-884e-4cd0-8f72-79dc50c0490d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 11"/>
+                    <attribute id="UUID" type="guid" value="1cb7b928-c4f0-44cf-9720-7b6d5bc67327"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock MasterMind Subclass Level 12"/>
+                    <attribute id="UUID" type="guid" value="0749f44f-74d6-4d02-82df-54652a4d3aee"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45221118-726f-459b-bb4f-24014a4ad39a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Imprint Level 2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="MIND_BLAST_ENVOCATION_PASSIVE1,MIND_BLAST_ENVOCATION_PASSIVE2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ad9a8d4-fcff-4330-91ea-4ae9cc149fb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Imprint Level 4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="341deb0a-7c41-4193-a34d-88dae955c5b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Imprint Level 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17a0415e-5517-4a6d-9b69-fda58d3fb17f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Imprint Level 8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b35f3dd4-0525-4366-bed9-4ff77fe61996" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Imprint Level 10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9bf8b50-c79f-4a64-810d-3a5050adb123" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock MasterMind Subclass Imprint Level 12" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

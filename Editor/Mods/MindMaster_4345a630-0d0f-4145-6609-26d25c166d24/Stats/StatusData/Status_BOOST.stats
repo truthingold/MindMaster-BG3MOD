@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54821fa4-01b2-4e7d-912a-581f1aa4a16b" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFA52A2A" value="SUPREME_BEING_STATUS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf98c0b3ag8880g7493g9a16g963140f3b90c" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h59865553g78b5g4d7eg1225g199e56cec99d" version="12" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not Ally() and not FactionMatch(Source)): FactionOverride(Source);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="2ec204da-98f5-4334-af37-217d50335e46" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMCantrip1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Intelligence" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence, SourceSpellDC()) or HasStatus('KNOCKED_OUT')" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SUPREME_BEING_STATUS" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Charmed;SG_Dominated" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d4, Psychic,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d4,Psychic);" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Pink" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Mental" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Mental" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1d4, Psychic);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;OverheadOnTurn;ForceOverhead;InitiateCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(SELF,SUPREME_BEING_REAPLY_STATUS,100,-1,,,,,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9aa7a90-3d17-48bf-b826-d020e963b03a" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFA52A2A" value="SUPREME_BEING_REAPLY_STATUS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6a5e0059g8403gc868g8e61g8e680fb226c8" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SUPREME_BEING_REAPLY_STATUS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SUPREME_BEING_SPELL_REAPLY);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62d38df1g4540gd835g99ffge182a90c8c15" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMCantrip1" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Pink" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('KNOCKED_OUT')" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Intelligence" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e27bd222-3848-4a93-b796-226f3be08d6e" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF32CD32" value="MIND_BLAST_PASSIVE_ATTEMPT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6beff6a8g8128g613fg7c9egbc3dd7322f3e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf766dcc5gb8d4g9964g07b1gdcee1cbd1c13" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMBlast3" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="White" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Dazed" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Dazed" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MIND_BLAST_PASSIVE_ATTEMPT" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Wisdom, 6)): ApplyStatus(STUNNED, 100, 2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bee08424-4ddc-41f7-80a1-a272b2a8fabf" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_AURA_OF_KnowledgeEater" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f9d52b7gab4egda1dgd42ag94f8961700b8" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ab20681gb219g4de6g217cg3a00789db765" version="2" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_AURA_OF_KnowledgeEater" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Enemy() and not IsImmuneToStatus('SG_Frightened')):ApplyStatus(PatronForm_AURA_OF_KnowledgeEater_DEBUFF)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not Combat()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b10b8029-ec10-4ca7-9483-5b27c9b6473a" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_AuraOfTerror_Start" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_AuraOfTerror_End" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell7" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Red" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PatronForm_TOOGLE_AURAEFFECT_PASSIVE;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e26238b-c3fc-4bdc-ada0-6a327a568b07" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_AURA_OF_KnowledgeEater_DEBUFF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc76bb6a6g1750gd1cdgce52gc86879f1d970" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3813d09egf16egde98g2a2fgf2616747c150" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_AURA_OF_KnowledgeEater" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);Disadvantage(AllSavingThrows);" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b10b8029-ec10-4ca7-9483-5b27c9b6473a" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMDebuff1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(5)" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Red" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not Combat()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d8664fd-8e31-41c6-a403-9d8606daddf0" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_AURA_OF_DESPAIR" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46f00599g31a2g2510g587fg6ce224ca73ce" version="5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8832986ag211cg26aagcae2gfc72e368002b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell1" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_AURA_OF_DESPAIR" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Necrotic);" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Ally() and Character()):ApplyStatus(SELF, PatronForm_AURA_OF_DESPAIR_BUFF);TARGET:IF(Enemy() and Character()):ApplyStatus(SELF, PatronForm_AURA_OF_DESPAIR_DEBUFF);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="daabac5d-1a39-42ad-afdd-3d562c3c42c1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not Combat()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PatronForm_TOOGLE_AURAEFFECT_PASSIVE;" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="ae24155f-2ebf-4feb-add1-78bc7490c871" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3fe45dd-a9db-4c5d-b195-755232218bc4" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_AURA_OF_DESPAIR_BUFF" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(1d4,Necrotic);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f6e023fga662gefafg9a92g9276a89b14f4" version="5" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_AURA_OF_DESPAIR_BUFF" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8393360bga1e9g15e3g0caeg745ae80887cf" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMBuff2" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Necrotic);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not Combat()" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="daabac5d-1a39-42ad-afdd-3d562c3c42c1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73e9c770-ad51-4f7f-9da8-41a4ba611a77" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_AURA_OF_DESPAIR_DEBUFF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c3fe45dd-a9db-4c5d-b195-755232218bc4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9ed2b16gb4c5g7b7dg5f42gf5e787cea27c" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1fcfa4dg1dfcgd001gc8e2g6ac4ce282414" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMDebuff3" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_AURA_OF_DESPAIR_DEBUFF" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PATRONFACE_DESPAIR_DEBUFF_PASSIVE;" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="1a75b65d-bdfd-4531-9b0b-07dbebc9bc58" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a9cf5cbf-4247-4b9a-b81b-e3af4982ff62" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cbf6558-52a4-4341-ae64-cbc6936eac68" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF7B68EE" value="PatronForm_TOOGLE_AURAEFFECT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h310d5086gf631gf1f5g7a4cg6fbd5db6205d" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98289eb8gd797g934eg862dgeef792d96a38" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_Banite_AuraOfTerror" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="White" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not Combat()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="8bdd5e0a-0d50-475f-b7dc-36bf6d035075" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f8ff002-0bae-4124-aff1-31f7de12c840" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFFF8C00" value="PatronForm_ShadowObedience_CHECK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b838e94g0fe0g15a6ge660g6656e2d70ad8" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a0ddd85gb97cg3b0cg76edg63dcc3f6c596" version="5" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_ShadowObedience_CHECK" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMDebuff2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('PATRONFACE_ShadowObedience_Resurrect')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockTravel()" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="GASP" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a9cf5cbf-4247-4b9a-b81b-e3af4982ff62" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(PatronForm_ShadowObedience_APPLY,100,2)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Cursed" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b1495e3-db6a-4efd-bf41-fa50e00e36d0" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF800000" value="PatronForm_Whisper_OF_Dread" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc98c9a9g469dgd711g6cbdg6604d2e2fda5" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf93bc0dfgd35cg1145g63e0g7aa3c5281536" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(15);UnlockSpell(Target_PatronForm_ShadowObedience);UnlockSpell(Shout_PATRONFACE_DESPAIR);UnlockSpell(Target_PatronForm_SoulDevour);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PATRONFACE_WHISPEROFDREAD_PASSIVE;" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="51c69cc8-79da-4c68-a688-1da01601aeda" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(15)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell8" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="LAUGHTERMANIACAL" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="SoundVocalLoop" type="EnumerationTableFieldDefinition" value="LAUGHTERMANIACAL" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_Whisper_OF_Dread" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnRemove;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="%%% Придумать чё нить" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

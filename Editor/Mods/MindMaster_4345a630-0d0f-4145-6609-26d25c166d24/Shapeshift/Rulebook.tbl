@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4a20cc05-eed3-46b0-bd19-62b9954ffd5e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" color="#FF483D8B" value="790cef5c-6955-46b6-b92b-0da9eb6886a3" />
+        <field name="Hp" type="ModifierTableFieldDefinition">
+          <modifier value="20" type="Add" />
+        </field>
+        <field name="WildShapeHotBar" type="BoolTableFieldDefinition" value="False" />
+        <field name="FootstepsType" type="BoolTableFieldDefinition" value="True" />
+        <field name="Weight" type="ModifierTableFieldDefinition">
+          <modifier value="100" type="Add" />
+        </field>
+        <field name="Abilities" type="ModifierListTableFieldDefinition">
+          <value>
+            <modifier value="" type="None" />
+            <modifier value="" type="None" />
+            <modifier value="" type="None" />
+            <modifier value="" type="Template" />
+            <modifier value="" type="Template" />
+            <modifier value="" type="Template" />
+          </value>
+        </field>
+        <field name="ApplyTagsFromTemplate" type="BoolTableFieldDefinition" value="True" />
+        <field name="ChangeRace" type="BoolTableFieldDefinition" value="True" />
+        <field name="ChangeBodyType" type="BoolTableFieldDefinition" value="True" />
+        <field name="ChangeAi" type="BoolTableFieldDefinition" value="True" />
+        <field name="ApplyVisual" type="BoolTableFieldDefinition" value="True" />
+        <field name="IgnoreCustomLooks" type="BoolTableFieldDefinition" value="True" />
+        <field name="RetainDisplayName" type="BoolTableFieldDefinition" value="True" />
+        <field name="ChangeIcon" type="BoolTableFieldDefinition" value="True" />
+        <field name="Scale" type="ModifierTableFieldDefinition">
+          <modifier value="" type="Template" />
+        </field>
+        <field name="MuteEquipmentSound" type="BoolTableFieldDefinition" value="True" />
+        <field name="RemovePrevSpells" type="BoolTableFieldDefinition" value="False" />
+        <field name="ApplySpellsFromTemplate" type="BoolTableFieldDefinition" value="True" />
+        <field name="DisableEquipmentSlots" type="BoolTableFieldDefinition" value="True" />
+        <field name="RuleName" type="StringTableFieldDefinition" color="#FF483D8B" value="PatronFormRuleBook" />
+        <field name="BaseACOverride" type="BoolTableFieldDefinition" value="True" />
+        <field name="TagsAdd" type="GuidObjectListTableFieldDefinition" value="25bf5042-5bf6-4360-8df8-ab107ccb0d37;f6fd70e6-73d3-4a12-a77e-f24f30b3b424;33c625aa-6982-4c27-904f-e47029a9b140;1eec74e8-3673-4500-abec-57b7ed8469ed" />
+        <field name="DevComment" type="StringTableFieldDefinition" value="Правило для формы Покравителя" />
+        <field name="ProficiencyGroupsInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
+        <field name="DefaultBoostsInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
+        <field name="PassivesInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
+        <field name="ResistancesInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
+        <field name="DifficultyStatusesInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
+        <field name="PersonalStatusImmunitiesInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
+        <field name="FlagsInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
+        <field name="TemporaryHp" type="ModifierTableFieldDefinition">
+          <modifier value="10" type="None" />
+        </field>
+        <field name="RemoveOldTags" type="BoolTableFieldDefinition" value="False" />
+        <field name="UseShapeshiftIdentity" type="BoolTableFieldDefinition" value="False" />
+        <field name="ActionCapabilities" type="EnumerationListTableFieldDefinition" value="Lockpicking;Pickpocketing" enumeration_type_name="ActionsCapabilities" version="1" />
+        <field name="BloodSurfaceTypeInheritanceType" type="EnumerationTableFieldDefinition" value="ReplaceOriginal" enumeration_type_name="ShapeshiftInheritanceTypeNoMerge" version="1" />
+        <field name="HitBloodTypeInheritanceType" type="EnumerationTableFieldDefinition" value="ReplaceOriginal" enumeration_type_name="ShapeshiftInheritanceTypeNoMerge" version="1" />
+        <field name="DeathActionsInheritanceType" type="EnumerationTableFieldDefinition" value="ReplaceOriginal" enumeration_type_name="ShapeshiftInheritanceTypeNoMerge" version="1" />
+        <field name="SpellsRemove" type="StringTableFieldDefinition" value="Target_DominatePerson_Mindflayer;Target_Sleep_MindFlayer;" />
+        <field name="SpeakingCapabilities" type="EnumerationListTableFieldDefinition" value="VoiceBark" enumeration_type_name="SpeakingCapabilities" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

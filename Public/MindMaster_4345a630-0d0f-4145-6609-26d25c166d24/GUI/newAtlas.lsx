@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMAuraToogle1"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMBarrier1"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMBlast3"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMBuff1"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMBuff2"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMCantrip1"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMDebuff1"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMDebuff2"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMDebuff3"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMImprint1"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMImprint2"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell1"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell10"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell2"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell3"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.0009765625"/>
+                    <attribute id="V2" type="float" value="0.12402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell4"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell5"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell6"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell7"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell8"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMSpell9"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MMUtil1"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="64"/>
+                    <attribute id="Width" type="int32" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="string" value="Assets/Textures/Icons/newAtlas.dds"/>
+                    <attribute id="UUID" type="FixedString" value="0f2e1543-8f1c-d6aa-8353-9d0e1f918a5f"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="512"/>
+                    <attribute id="Width" type="int32" value="512"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
