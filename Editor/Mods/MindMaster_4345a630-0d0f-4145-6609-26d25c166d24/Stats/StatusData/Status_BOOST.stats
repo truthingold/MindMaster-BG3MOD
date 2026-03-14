@@ -214,5 +214,12 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a17aafa5-7c6d-4f7e-bf58-120ff387dbb3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SuperTestingTest" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5060bf78g447bg7d15gf860g0cc6023a3ae1" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

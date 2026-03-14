@@ -189,3 +189,8 @@ data "OnRemoveFunctors" "%%% Придумать чё нить"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "51c69cc8-79da-4c68-a688-1da01601aeda"
 
+new entry "SuperTestingTest"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5060bf78g447bg7d15gf860g0cc6023a3ae1;1"
+
