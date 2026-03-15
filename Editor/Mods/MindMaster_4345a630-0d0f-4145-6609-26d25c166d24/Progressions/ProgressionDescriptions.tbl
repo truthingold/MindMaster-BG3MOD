@@ -6,7 +6,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
         <field name="UUID" type="IdTableFieldDefinition" value="a3aebcee-8f61-44d9-9651-b08ce5d6c690" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h390067a1g7a40gf16bgbf82g7d01451c866b" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c74b4ffgff0fg545agd591gece7c2f8b183" version="7" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c74b4ffgff0fg545agd591gece7c2f8b183" version="8" />
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="ImPrints" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="2f5e9a0b-f9ed-455a-9fba-0234bf457911" />
       </fields>

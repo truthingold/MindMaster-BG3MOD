@@ -83,7 +83,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:TARGET:ApplyStatus(PatronForm_AURA_OF_DESPAIR,100,-1);AI_ONLY:TARGET:ApplyStatus(AI_STATUS_FAKE,100);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea4e1bddgc7edg5572g9e35gb0fe844efca7" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea4e1bddgc7edg5572g9e35gb0fe844efca7" version="3" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h095e814eg0733g1e59g2424g363c4f257f17" version="7" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Necrotic);DealDamage(1d4,Psychic)" />
@@ -114,7 +114,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45a4b034g1484g8ed6g10beg1be493e1db18" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30a635f0gff1bg1598gd127g575ba5d82612" version="7" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30a635f0gff1bg1598gd127g575ba5d82612" version="8" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PatronForm_Whisper_OF_Dread,100,10)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_FormOfDread" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_FormOfDread" />
