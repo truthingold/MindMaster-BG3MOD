@@ -212,7 +212,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2014e65a-ca07-486e-9efc-b0149f9157cb" />
         <field name="Name" type="NameTableFieldDefinition" color="#FFFF8C00" value="PatronForm_ShadowObedience" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PatronForm_ShadowObedience_CHECK,100,-1);RemoveStatus(SELF,PatronForm_SoulDevour_STACK);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="4" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self() and not Ally() ;" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0322639ag9d91g8b5fg37f9gca773f9656f8" version="5" />
@@ -226,7 +226,7 @@
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;2da41f71-3471-4ac8-a268-63983acbe88c,,;70c2d89d-98bd-4462-82e2-8e30e9c727be,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;HasSomaticComponent;IsAttack;HasVerbalComponent;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;HasSomaticComponent;IsAttack;HasVerbalComponent" enumeration_type_name="SpellFlagList" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9054a112-40c2-44b4-a521-d692933f5ef5" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="f632bb78-68c4-45ba-b1f8-03bc09743c34" />
@@ -249,19 +249,19 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6c6dbf7b-281a-4369-9d3a-5363daab0eb0" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF9932CC" value="PatronForm_SoulDevour" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="12" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6,Necrotic,Magical);RegainHitPoints(OWNER,(DamageDone)/2);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PatronForm_SoulDevour_LevelMap),Necrotic,Magical);TARGET:IF(not Tagged('UNDEAD') and not Tagged('CONSTRUCT')):RegainHitPoints(OWNER,(DamageDone)/2);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self()" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;HasSomaticComponent;IsAttack;HasVerbalComponent;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;HasSomaticComponent;IsAttack;HasVerbalComponent" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h08fe2a53g6ee5g0829gfccag28a96a8d4d1e" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="14" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;c17a3562-3758-4c4a-96e8-790cebed1df4,,;a8012b19-b279-45ec-89b0-86a1b73ad584,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell9" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Necrotic,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PatronForm_SoulDevour_LevelMap),Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9054a112-40c2-44b4-a521-d692933f5ef5" />
@@ -278,11 +278,9 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d6/2,Necrotic,Magical);" />
         <field name="RechargeValues" type="StringTableFieldDefinition" value="2-3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:IF(not Tagged('UNDEAD') and not Tagged('CONSTRUCT')):ApplyStatus(PatronForm_SoulDevour_HIDDENSTACK,100,0);" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5ed4b75ag44e1gf3a6gd302gb41ffffbaf9d" version="2" />
-        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="961753f4-c345-4bc4-b408-1d5b87a5ab0c" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -308,7 +306,7 @@
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;c17a3562-3758-4c4a-96e8-790cebed1df4,,;a8012b19-b279-45ec-89b0-86a1b73ad584,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;HasSomaticComponent;IsAttack;HasVerbalComponent;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;HasSomaticComponent;IsAttack;HasVerbalComponent" enumeration_type_name="SpellFlagList" version="1" />
         <field name="RechargeValues" type="StringTableFieldDefinition" value="5-6" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />

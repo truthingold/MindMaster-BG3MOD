@@ -39,27 +39,6 @@
                         <node id="AbilityChanges">
                             <children>
                                 <node id="Object">
-                                    <attribute id="type" type="uint8" value="0"/>
-                                </node>
-                            </children>
-                        </node>
-                        <node id="AbilityChanges">
-                            <children>
-                                <node id="Object">
-                                    <attribute id="type" type="uint8" value="0"/>
-                                </node>
-                            </children>
-                        </node>
-                        <node id="AbilityChanges">
-                            <children>
-                                <node id="Object">
-                                    <attribute id="type" type="uint8" value="0"/>
-                                </node>
-                            </children>
-                        </node>
-                        <node id="AbilityChanges">
-                            <children>
-                                <node id="Object">
                                     <attribute id="type" type="uint8" value="4"/>
                                 </node>
                             </children>
@@ -75,6 +54,27 @@
                             <children>
                                 <node id="Object">
                                     <attribute id="type" type="uint8" value="4"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
                                 </node>
                             </children>
                         </node>

@@ -40,6 +40,7 @@ data "VerbalIntent" "Utility"
 data "SpellFlags" "Temporary"
 data "SpellActionType" "Dismiss"
 data "SpellAnimationIntentType" "Peaceful"
+data "RequirementConditions" "not HasStatus('PatronForm_Whisper_OF_Dread')"
 data "PrepareEffect" "c8cb3922-b4d6-4122-ac39-f6a0fa36020c"
 data "CastEffect" "cae956d5-7450-4c43-9c0b-60eeb83e1c17"
 

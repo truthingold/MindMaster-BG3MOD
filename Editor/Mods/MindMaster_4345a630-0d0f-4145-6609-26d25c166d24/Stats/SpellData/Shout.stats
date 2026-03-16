@@ -48,6 +48,7 @@
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Tadpole_Buff_Gen_L1to3" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PatronForm_Whisper_OF_Dread')" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

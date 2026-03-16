@@ -170,7 +170,7 @@
   <content contentuid="h19702b3egff3eg6ca8g7fafg26b1c15bf1c8" version="1">Отголосок Бездны</content>
   <content contentuid="h0af46447g7514ge5a0g9ff3ga94937ccc70a" version="1">Ресурс для превращения в патрона</content>
   <content contentuid="h08fe2a53g6ee5g0829gfccag28a96a8d4d1e" version="2">Жнец Душ</content>
-  <content contentuid="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="8">Поглотите жизненную силу вашего врага.&lt;br&gt;&lt;br&gt;Если существо провалит &lt;LSTag Tooltip="SavingThrow"&gt;Испытание&lt;/LSTag&gt; &lt;LSTag Tooltip="Constitution"&gt;Выносливости&lt;/LSTag&gt; - оно получит урон, а заклинатель вылечится на половину от нанесённого урона.</content>
+  <content contentuid="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="14">Вырвите из врага всю его жизненную силу. Применяя это заклинание, вы лечитесь на половину от нанесённого урона.</content>
   <content contentuid="h11af987cge616g64ffgee06gaaa657c11c54" version="1">%%%|Mindsteal Link|</content>
   <content contentuid="h4630b976g5c66g529dg086ag5617b652a7de" version="1">%%%|Hidden: Suffers from a Mindsteal Link from the Inquisitor|</content>
   <content contentuid="h9954382fg0dccg46f6g8949g3024f5e9c0fc" version="2">%%% ТЕСТ ЭФФЕКТ</content>

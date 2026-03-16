@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d8"/>
+                    <attribute id="Level10" type="LSString" value="4d8"/>
+                    <attribute id="Level2" type="LSString" value="2d8"/>
+                    <attribute id="Level3" type="LSString" value="2d8"/>
+                    <attribute id="Level4" type="LSString" value="2d8"/>
+                    <attribute id="Level5" type="LSString" value="3d8"/>
+                    <attribute id="Level6" type="LSString" value="3d8"/>
+                    <attribute id="Level7" type="LSString" value="3d8"/>
+                    <attribute id="Level8" type="LSString" value="3d8"/>
+                    <attribute id="Level9" type="LSString" value="3d8"/>
+                    <attribute id="Name" type="FixedString" value="PatronForm_SoulDevour_LevelMap"/>
+                    <attribute id="UUID" type="guid" value="5857a16e-4259-437a-bfd6-e5fe510ea8b7"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

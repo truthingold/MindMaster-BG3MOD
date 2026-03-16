@@ -15,12 +15,12 @@
         </field>
         <field name="Abilities" type="ModifierListTableFieldDefinition">
           <value>
-            <modifier value="" type="None" />
-            <modifier value="" type="None" />
-            <modifier value="" type="None" />
             <modifier value="" type="Template" />
             <modifier value="" type="Template" />
             <modifier value="" type="Template" />
+            <modifier value="" type="None" />
+            <modifier value="" type="None" />
+            <modifier value="" type="None" />
           </value>
         </field>
         <field name="ApplyTagsFromTemplate" type="BoolTableFieldDefinition" value="True" />
