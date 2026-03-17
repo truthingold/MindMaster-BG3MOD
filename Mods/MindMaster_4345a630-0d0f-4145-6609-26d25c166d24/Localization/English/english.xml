@@ -81,7 +81,7 @@
   <content contentuid="h1d160e4fgd641gf53dg9befg9a256371a37f" version="1">Псионическая Блокада</content>
   <content contentuid="h3c2bbf21g13adg0364g0d6eg986cbf7a6b6a" version="1">Полные стаки</content>
   <content contentuid="hae415bb7g5589g2c9dge020g0a04c922cb3b" version="1">Чек 6 стака</content>
-  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="103">Иллитид-Лич</content>
+  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="105">Иллитид-Лич</content>
   <content contentuid="h7cc1d48fga4eagc043ga463g194eb98f238f" version="1">Лик Покровителя</content>
   <content contentuid="h7550ce89gfbc5g5b90gb2e2gb18cfded31ec" version="2">Отдаться полностью во власть покровителя...</content>
   <content contentuid="h7c229646g208egaeb8gdc7agcba6b8e63406" version="1">Лик Покровителя</content>
@@ -150,7 +150,7 @@
   <content contentuid="h43895499gecbdg940dg3c13g381a9362c949" version="1">Form of Dread</content>
   <content contentuid="hcc8f889fg41b4g968dg8e55g800daf88ebe8" version="1">The Ch'r'ai has [1] and can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Each time she attacks a foe, that foe can become Frightened for 1 turn.</content>
   <content contentuid="hbc98c9a9g469dgd711g6cbdg6604d2e2fda5" version="2">Шёпот Истинного Ужаса</content>
-  <content contentuid="hf93bc0dfgd35cg1145g63e0g7aa3c5281536" version="7">Вам становятся доступны следующие заклинания для сотворения:&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_SoulDevour"&gt;Жнец Душ&lt;/LSTag&gt;;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_ShadowObedience"&gt;Проклятие: Тень Послушания&lt;/LSTag&gt;;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_Harvest"&gt;Жатва&lt;/LSTag&gt;</content>
+  <content contentuid="hf93bc0dfgd35cg1145g63e0g7aa3c5281536" version="8">Вам становятся доступны следующие заклинания для сотворения:&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_SoulDevour"&gt;Жнец Душ&lt;/LSTag&gt;;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_ShadowObedience"&gt;Проклятие: Тень Послушания&lt;/LSTag&gt;;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_Harvest"&gt;Жатва&lt;/LSTag&gt;;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_PatronForm_SacrificialPact"&gt;Жертвенный Пакт&lt;/LSTag&gt;</content>
   <content contentuid="hbf34e88ag8e77ged47gfa53g640194ea6738" version="3">%%% НЕ ЗАБЫТЬ ВПИСАТЬ Эхо Бездны</content>
   <content contentuid="he76fb61fgdd61gec4eg50beg9c4d4ada5d36" version="6">При нанесении психического урона, дополнительно нанесите [1].</content>
   <content contentuid="h114f4e71gcf2ag9d43g0291ge3ac65a9e03b" version="2">При нанесении некротического урона, дополнительно нанесите [1].</content>
@@ -195,4 +195,12 @@
   <content contentuid="h59005ae9ga0cfgb2ffg3112g164a97cd46dc" version="3">Поглотив душу умёршего однажды, вы на этом не остановитесь - поглотите физическое воплощение вашего слуги, чтобы излечить самого себя.</content>
   <content contentuid="h148c7db7g0192g0be4g417bg30ed6741c83b" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Заклинание может быть применено только на &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верного Слугу&lt;/LSTag&gt;.</content>
   <content contentuid="h432119bbgd47dg1f31gdcecg72a9a43dca73" version="1">Они лишь инструменты...</content>
+  <content contentuid="h41a6dc97gbce9ga302g8bfcg91cf3327cb68" version="1">Жертвенный Пакт</content>
+  <content contentuid="h4edf08dbge1abga503ge7edg3507d5f9fba6" version="2">Выберите одно из трех усилений для союзника.</content>
+  <content contentuid="h81fb0e05gd335ga4eaga801ge49c02a56bc1" version="1">Господство Над Тенями</content>
+  <content contentuid="hcf04757dg54d9g7b3ag9a7eg450956c33697" version="1">Стать единым с Тенями</content>
+  <content contentuid="hed55fec8g5925g5bb9ge49agf163d06968c5" version="1">Хор Скорби</content>
+  <content contentuid="ha37e60b6g23e0g8dd7g3defgb710e5b432db" version="1">Испуг по Области</content>
+  <content contentuid="h6c6d09a0g4edagfc29g101agd4a37dc2be99" version="1">Печать Неудержимости</content>
+  <content contentuid="h1d6e135cgac2cgc798ga1bfge6c0c35075fa" version="1">Наложить Печать</content>
 </contentList>
