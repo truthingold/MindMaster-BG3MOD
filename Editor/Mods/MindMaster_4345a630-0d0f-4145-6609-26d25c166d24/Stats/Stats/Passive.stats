@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9826308d-cdc0-4d2b-9981-07692ee6592b" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FF00CED1" value="MIND_BLAST_ENVOCATION_PASSIVE1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIND_BLAST_ENVOCATION_PASSIVE1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5aee5d5gc1bbgbf70g76d4gf77234c782d4" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ebcabd6g2cbbg41acg13cegcae8218fa77c" version="13" />
         <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Projectile_MIND_BLAST_CANTRIP') and HasDamageEffectFlag(DamageFlags.Hit);" />
@@ -18,7 +18,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="213e8842-2088-4f06-93bd-1060e83bf727" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FF48D1CC" value="MIND_BLAST_ENVOCATION_PASSIVE2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIND_BLAST_ENVOCATION_PASSIVE2" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c2274b4g3837g2a78gacb7ge7cf6609db5d" version="5" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71d1ca93ge638g7b61gc31fgbeaaedec0d05" version="11" />
         <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Projectile_MIND_BLAST_CANTRIP') and HasDamageEffectFlag(DamageFlags.Hit);" />
@@ -31,7 +31,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2d524c15-af74-476f-870f-fc42a63331ab" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FF708090" value="MIND_MASTER_BARRIER_PASSIVE" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIND_MASTER_BARRIER_PASSIVE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32353eaagb77ege8d6g6046g3fa087fe37e4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd13eec11g4b11gdaafg5564g55293a606fc9" version="9" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMBarrier1" />
@@ -42,36 +42,8 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="32bcce83-65f6-4c05-8dc7-a004835e93c4" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PATRONFACE_DESPAIR_DEBUFF_PASSIVE" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5dded480g25cbgc92eg89f6ge07f16222db5" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a8aa532g6379g0802g21b3g5cff4fd29908" version="2" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsMiss();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SELF,1d4,Psychic,Magical);" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Psychic)" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a8c55a69-1d5c-4b21-bc49-50f2cf5823d4" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FF7B68EE" value="PatronForm_TOOGLE_AURAEFFECT_PASSIVE" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde0d3129g25e9g3d69g2137gd5c126f89339" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4e6e04ag95b9gefccg48f1ged99560642ed" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="MMAuraToogle1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Temporary" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('PatronForm_TOOGLE_AURAEFFECT');" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PatronForm_TOOGLE_AURAEFFECT, 100, -1)" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PatronForm_TOOGLE_AURAEFFECT, 100, -1)" />
-        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(PatronForm_TOOGLE_AURAEFFECT, 100, -1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a422e836-5245-4164-ad89-1306364b7966" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FFBC8F8F" value="MIND_MASTER_ECHOOFTHEVOID_PASSIVE" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIND_MASTER_ECHOOFTHEVOID_PASSIVE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf34e88ag8e77ged47gfa53g640194ea6738" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he76fb61fgdd61gec4eg50beg9c4d4ada5d36" version="6" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Necrotic)" />
@@ -87,7 +59,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1b589ab0-be96-41f2-ba78-108180a2e6ff" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FF800000" value="PATRONFACE_WHISPEROFDREAD_PASSIVE" />
+        <field name="Name" type="NameTableFieldDefinition" value="PATRONFACE_WHISPEROFDREAD_PASSIVE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha80a50f4gb04dg54e1gfe1cg1c94516d6ce0" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f52131fg55a4g7185g78b1gcf8adf5b89be" version="5" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell8" />

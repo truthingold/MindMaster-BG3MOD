@@ -1,4 +1,4 @@
-new entry "TESTEFFECT1"
+new entry "PatronForm_Usurper_VFX"
 type "StatusData"
 data "StatusType" "EFFECT"
 using "WITCH_BOLT"

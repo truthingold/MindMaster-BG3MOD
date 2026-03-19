@@ -8,7 +8,6 @@
         <field name="Hp" type="ModifierTableFieldDefinition">
           <modifier value="20" type="Add" />
         </field>
-        <field name="WildShapeHotBar" type="BoolTableFieldDefinition" value="False" />
         <field name="FootstepsType" type="BoolTableFieldDefinition" value="True" />
         <field name="Weight" type="ModifierTableFieldDefinition">
           <modifier value="100" type="Add" />
@@ -36,7 +35,7 @@
         </field>
         <field name="MuteEquipmentSound" type="BoolTableFieldDefinition" value="True" />
         <field name="RemovePrevSpells" type="BoolTableFieldDefinition" value="False" />
-        <field name="ApplySpellsFromTemplate" type="BoolTableFieldDefinition" value="True" />
+        <field name="ApplySpellsFromTemplate" type="BoolTableFieldDefinition" value="False" />
         <field name="DisableEquipmentSlots" type="BoolTableFieldDefinition" value="True" />
         <field name="RuleName" type="StringTableFieldDefinition" color="#FF483D8B" value="PatronFormRuleBook" />
         <field name="BaseACOverride" type="BoolTableFieldDefinition" value="True" />
@@ -58,8 +57,8 @@
         <field name="BloodSurfaceTypeInheritanceType" type="EnumerationTableFieldDefinition" value="ReplaceOriginal" enumeration_type_name="ShapeshiftInheritanceTypeNoMerge" version="1" />
         <field name="HitBloodTypeInheritanceType" type="EnumerationTableFieldDefinition" value="ReplaceOriginal" enumeration_type_name="ShapeshiftInheritanceTypeNoMerge" version="1" />
         <field name="DeathActionsInheritanceType" type="EnumerationTableFieldDefinition" value="ReplaceOriginal" enumeration_type_name="ShapeshiftInheritanceTypeNoMerge" version="1" />
-        <field name="SpellsRemove" type="StringTableFieldDefinition" value="Target_DominatePerson_Mindflayer;Target_Sleep_MindFlayer;" />
-        <field name="SpeakingCapabilities" type="EnumerationListTableFieldDefinition" value="VoiceBark" enumeration_type_name="SpeakingCapabilities" version="1" />
+        <field name="SpeakingCapabilities" type="EnumerationListTableFieldDefinition" value="VoiceBark;Dialogue" enumeration_type_name="SpeakingCapabilities" version="1" />
+        <field name="SpellsAdd" type="StringTableFieldDefinition" value="Projectile_TAD_Levitate;Target_PatronForm_Tentacles;Target_PatronForm_ExtractBrain;Shout_PATRONFACE_WHISPEROFDREAD;Target_PatronForm_Usurper;" />
       </fields>
     </stat_object>
   </stat_objects>

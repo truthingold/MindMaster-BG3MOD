@@ -5,18 +5,8 @@
         <node id="root">
             <children>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h258bd11ag3d21g3f8egf200g99d44ecbd70c" version="2"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h366eaec9ga4a6g27eagd45fg59c3e6ac5fa5" version="1"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="MaxValue" type="uint32" value="6"/>
-                    <attribute id="Name" type="FixedString" value="EchoOfKnowledge"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="2dc62166-ba80-4867-87df-72c23200581b"/>
-                </node>
-                <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="h0af46447g7514ge5a0g9ff3ga94937ccc70a" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h19702b3egff3eg6ca8g7fafg26b1c15bf1c8" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h19702b3egff3eg6ca8g7fafg26b1c15bf1c8" version="2"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
                     <attribute id="MaxValue" type="uint32" value="2"/>
                     <attribute id="Name" type="FixedString" value="EchoOfVoid"/>

@@ -81,7 +81,7 @@
   <content contentuid="h1d160e4fgd641gf53dg9befg9a256371a37f" version="1">Псионическая Блокада</content>
   <content contentuid="h3c2bbf21g13adg0364g0d6eg986cbf7a6b6a" version="1">Полные стаки</content>
   <content contentuid="hae415bb7g5589g2c9dge020g0a04c922cb3b" version="1">Чек 6 стака</content>
-  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="105">Иллитид-Лич</content>
+  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="111">Иллитид-Лич</content>
   <content contentuid="h7cc1d48fga4eagc043ga463g194eb98f238f" version="1">Лик Покровителя</content>
   <content contentuid="h7550ce89gfbc5g5b90gb2e2gb18cfded31ec" version="2">Отдаться полностью во власть покровителя...</content>
   <content contentuid="h7c229646g208egaeb8gdc7agcba6b8e63406" version="1">Лик Покровителя</content>
@@ -167,7 +167,7 @@
   <content contentuid="hbe2a7832gc9ddg2943g141age2ecb0b81b66" version="1">Подлететь к месту назначения.</content>
   <content contentuid="h366eaec9ga4a6g27eagd45fg59c3e6ac5fa5" version="1">Отголосок Знания</content>
   <content contentuid="h258bd11ag3d21g3f8egf200g99d44ecbd70c" version="2">Ресурс для использования заклинаний</content>
-  <content contentuid="h19702b3egff3eg6ca8g7fafg26b1c15bf1c8" version="1">Отголосок Бездны</content>
+  <content contentuid="h19702b3egff3eg6ca8g7fafg26b1c15bf1c8" version="2">Заряд Преображения</content>
   <content contentuid="h0af46447g7514ge5a0g9ff3ga94937ccc70a" version="1">Ресурс для превращения в патрона</content>
   <content contentuid="h08fe2a53g6ee5g0829gfccag28a96a8d4d1e" version="2">Жнец Душ</content>
   <content contentuid="h8f996f71g6516g590eg20fbg9ca2276ea0d6" version="14">Вырвите из врага всю его жизненную силу. Применяя это заклинание, вы лечитесь на половину от нанесённого урона.</content>
@@ -203,10 +203,24 @@
   <content contentuid="ha37e60b6g23e0g8dd7g3defgb710e5b432db" version="1">Испуг по Области</content>
   <content contentuid="h6c6d09a0g4edagfc29g101agd4a37dc2be99" version="1">Печать Неудержимости</content>
   <content contentuid="h1d6e135cgac2cgc798ga1bfge6c0c35075fa" version="1">Наложить Печать</content>
-  <content contentuid="ha0235fe2g16fdg9692g2f96g3e77fc9c57e2" version="1">Господство Над Тенями</content>
+  <content contentuid="ha0235fe2g16fdg9692g2f96g3e77fc9c57e2" version="3">Господство Над Тенями</content>
   <content contentuid="h97a6c6ccgd225g862bg0514g4187b9996cec" version="1">%%% Описание способности</content>
   <content contentuid="hb4dc4f92gf0c5gfd6fgcdbfg53e414f17504" version="1">Пассивка</content>
   <content contentuid="h1e13c040g411agc3efgd628gbd4ee766f43a" version="1">АнтиРезист теней</content>
   <content contentuid="h1dd1df1fg308dg87aagcb76gd758d1977a2b" version="1">%%% УЯЗМИВОСТЬ</content>
   <content contentuid="ha9d3a956gbe71gb4e4gbfadgcb0266d10885" version="1">%%% Кроме некротики и яда. </content>
+  <content contentuid="h259dedc6gb937g1d00g067eg7ba1fa3c477e" version="1">Узурпатор</content>
+  <content contentuid="h2f36b9b1g45b6gd47cgadf3gfcdb0ad2c35f" version="1">Присвойте себе силу противника.</content>
+  <content contentuid="h0659b079g7551g1483g31f9g009e468a33e0" version="2">Узурпатор - ДЕБАФФ</content>
+  <content contentuid="h505bc354g0358g1e17g13e1gc256cc778dbb" version="1">Описание</content>
+  <content contentuid="h98ff536cg06d5g557dg3944g93da87e0ed72" version="1">Узурпатор - БАФФ</content>
+  <content contentuid="h23db6c9cg9581g4082g3157g5be5a7bb572e" version="1">%%% Кража характеристик</content>
+  <content contentuid="h6d8b452dg3789gbd73gb403gdaa32d75f4a4" version="1">%%% Описание</content>
+  <content contentuid="hfb8a1016gad1fg079cgbe0ag668edc9983ff" version="1">ХОМЯЧИТЬ СТАТЫ</content>
+  <content contentuid="h22a2f054g0f01gd245g5f23gc62f8c480495" version="1">Strength Drain</content>
+  <content contentuid="ha28add0cga874g7dbcg74c1gab8fedbd4e63" version="1">Claw a foe's heart and possibly leech its &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 3. The target dies if its Strength is reduced to 0.</content>
+  <content contentuid="hfe4b458ag3388gbd66g7fe5ge3ef793e2dc7" version="1">If the target is in bright light or daylight, it makes its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h5fc6ea88g66f1ga71dg675cgb5ac499c1302" version="1">Strength Drain</content>
+  <content contentuid="h37866a0fg393cge49cg8c9dg918d2b424408" version="1">A shadow has drained the affected entity's &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 3.</content>
+  <content contentuid="h42af1c78gc790g2353g2e91g04ea2dc939aa" version="1">%%% Поглощение характеристик</content>
 </contentList>

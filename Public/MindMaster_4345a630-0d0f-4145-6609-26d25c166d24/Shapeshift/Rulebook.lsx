@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="Rule">
-                    <attribute id="ApplySpellsFromTemplate" type="bool" value="true"/>
+                    <attribute id="ApplySpellsFromTemplate" type="bool" value="false"/>
                     <attribute id="ApplyTagsFromTemplate" type="bool" value="true"/>
                     <attribute id="ApplyVisual" type="bool" value="true"/>
                     <attribute id="BaseACOverride" type="bool" value="true"/>
@@ -31,10 +31,9 @@
                     <attribute id="ResistancesInheritanceType" type="FixedString" value="Merge"/>
                     <attribute id="RetainDisplayName" type="bool" value="true"/>
                     <attribute id="RuleName" type="LSString" value="PatronFormRuleBook"/>
-                    <attribute id="SpellsRemove" type="LSString" value="Target_DominatePerson_Mindflayer;Target_Sleep_MindFlayer;"/>
+                    <attribute id="SpellsAdd" type="LSString" value="Projectile_TAD_Levitate;Target_PatronForm_Tentacles;Target_PatronForm_ExtractBrain;Shout_PATRONFACE_WHISPEROFDREAD;Target_PatronForm_Usurper;"/>
                     <attribute id="UUID" type="guid" value="790cef5c-6955-46b6-b92b-0da9eb6886a3"/>
                     <attribute id="UseShapeshiftIdentity" type="bool" value="false"/>
-                    <attribute id="WildShapeHotBar" type="bool" value="false"/>
                     <children>
                         <node id="AbilityChanges">
                             <children>
@@ -99,6 +98,9 @@
                             <children>
                                 <node id="SpeakingCapabilities">
                                     <attribute id="Name" type="LSString" value="VoiceBark"/>
+                                </node>
+                                <node id="SpeakingCapabilities">
+                                    <attribute id="Name" type="LSString" value="Dialogue"/>
                                 </node>
                             </children>
                         </node>

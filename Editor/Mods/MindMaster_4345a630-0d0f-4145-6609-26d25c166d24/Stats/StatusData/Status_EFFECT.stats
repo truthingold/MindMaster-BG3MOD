@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="66cef1a5-3479-4107-86a5-f9edd56dc70d" />
-        <field name="Name" type="NameTableFieldDefinition" value="TESTEFFECT1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PatronForm_Usurper_VFX" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="53a3a522-a0f2-4595-85ec-0167d41c0b97" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9954382fg0dccg46f6g8949g3024f5e9c0fc" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c87ad7fg23fag4e3eg4f40g744e086289bd" version="2" />
