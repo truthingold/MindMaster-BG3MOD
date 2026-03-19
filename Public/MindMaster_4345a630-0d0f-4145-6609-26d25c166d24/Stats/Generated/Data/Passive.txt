@@ -74,3 +74,10 @@ data "StatsFunctorContext" "OnAttack"
 data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('FRIGHTENED',context.Target) and not Self();"
 data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(FRIGHTENED,100,1)"
 
+new entry "PatronForm_SacrificialPact_ShadowsDominion_BUFF_PASSIVE"
+type "PassiveData"
+data "DisplayName" "hb4dc4f92gf0c5gfd6fgcdbfg53e414f17504;1"
+data "Description" "h1e13c040g411agc3efgd628gbd4ee766f43a;1"
+data "Properties" "Highlighted"
+data "Boosts" "Resistance(Slashing, Vulnerability);Resistance(Piercing, Vulnerability);Resistance(Bludgeoning, Vulnerability);Resistance(Acid, Vulnerability);Resistance(Cold, Vulnerability);Resistance(Fire, Vulnerability);Resistance(Force, Vulnerability);Resistance(Lightning, Vulnerability);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);Resistance(Psychic, Vulnerability);Resistance(Radiant, Vulnerability);Resistance(Thunder, Vulnerability);"
+

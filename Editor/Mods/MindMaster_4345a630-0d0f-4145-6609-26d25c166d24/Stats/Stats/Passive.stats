@@ -98,5 +98,15 @@
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a97d7c63-e870-4a63-b29b-b0c020b18da8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PatronForm_SacrificialPact_ShadowsDominion_BUFF_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4dc4f92gf0c5gfd6fgcdbfg53e414f17504" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e13c040g411agc3efgd628gbd4ee766f43a" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing, Vulnerability);Resistance(Piercing, Vulnerability);Resistance(Bludgeoning, Vulnerability);Resistance(Acid, Vulnerability);Resistance(Cold, Vulnerability);Resistance(Fire, Vulnerability);Resistance(Force, Vulnerability);Resistance(Lightning, Vulnerability);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);Resistance(Psychic, Vulnerability);Resistance(Radiant, Vulnerability);Resistance(Thunder, Vulnerability);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

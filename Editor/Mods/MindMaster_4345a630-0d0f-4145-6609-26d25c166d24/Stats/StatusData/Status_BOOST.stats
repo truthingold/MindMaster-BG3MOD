@@ -240,5 +240,26 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24073e03-0021-478e-a8fe-2fae05afc12f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PatronForm_SacrificialPact_ShadowsDominion_BUFF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha0235fe2g16fdg9692g2f96g3e77fc9c57e2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97a6c6ccgd225g862bg0514g4187b9996cec" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMSpell12" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="BUFF" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_SacrificialPact_ShadowsDominion_BUFF" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(1d4, Necrotic);UnlockSpell(Target_MAG_Shadow_Shadowstep);Resistance(All, Vulnerability);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ShadowyRetreat;EyesOfTheDark;SunlightWeakness;PatronForm_SacrificialPact_ShadowsDominion_BUFF_PASSIVE;" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('KNOCKED_OUT')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
