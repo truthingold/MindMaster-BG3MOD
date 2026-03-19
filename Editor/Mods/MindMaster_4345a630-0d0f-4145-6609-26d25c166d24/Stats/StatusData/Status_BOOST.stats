@@ -251,7 +251,7 @@
         <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="BUFF" enumeration_type_name="SoundVocalType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_SacrificialPact_ShadowsDominion_BUFF" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(1d4, Necrotic);UnlockSpell(Target_MAG_Shadow_Shadowstep);Resistance(All, Vulnerability);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(1d4, Necrotic);UnlockSpell(Target_MAG_Shadow_Shadowstep);" />
         <field name="Passives" type="StringTableFieldDefinition" value="ShadowyRetreat;EyesOfTheDark;SunlightWeakness;PatronForm_SacrificialPact_ShadowsDominion_BUFF_PASSIVE;" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('KNOCKED_OUT')" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />

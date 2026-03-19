@@ -89,11 +89,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1b589ab0-be96-41f2-ba78-108180a2e6ff" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF800000" value="PATRONFACE_WHISPEROFDREAD_PASSIVE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha80a50f4gb04dg54e1gfe1cg1c94516d6ce0" version="4" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f52131fg55a4g7185g78b1gcf8adf5b89be" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f52131fg55a4g7185g78b1gcf8adf5b89be" version="5" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell8" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('FRIGHTENED',context.Target) and not Self();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('FRIGHTENED', context.Target) and not Ally(context.Source, context.Target) and not Self();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(FRIGHTENED,100,1)" />
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
       </fields>
@@ -102,10 +102,10 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a97d7c63-e870-4a63-b29b-b0c020b18da8" />
         <field name="Name" type="NameTableFieldDefinition" value="PatronForm_SacrificialPact_ShadowsDominion_BUFF_PASSIVE" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4dc4f92gf0c5gfd6fgcdbfg53e414f17504" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e13c040g411agc3efgd628gbd4ee766f43a" version="1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing, Vulnerability);Resistance(Piercing, Vulnerability);Resistance(Bludgeoning, Vulnerability);Resistance(Acid, Vulnerability);Resistance(Cold, Vulnerability);Resistance(Fire, Vulnerability);Resistance(Force, Vulnerability);Resistance(Lightning, Vulnerability);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);Resistance(Psychic, Vulnerability);Resistance(Radiant, Vulnerability);Resistance(Thunder, Vulnerability);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dd1df1fg308dg87aagcb76gd758d1977a2b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9d3a956gbe71gb4e4gbfadgcb0266d10885" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing, Vulnerable);Resistance(Piercing, Vulnerable);Resistance(Bludgeoning, Vulnerable);Resistance(Acid, Vulnerable);Resistance(Cold, Vulnerable);Resistance(Fire, Vulnerable);Resistance(Force, Vulnerable);Resistance(Lightning, Vulnerable);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);Resistance(Psychic, Vulnerable);Resistance(Radiant, Vulnerable);Resistance(Thunder, Vulnerable);" />
       </fields>
     </stat_object>
   </stat_objects>
