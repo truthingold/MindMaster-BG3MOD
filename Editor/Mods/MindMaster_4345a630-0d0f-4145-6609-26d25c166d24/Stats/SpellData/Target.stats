@@ -285,14 +285,14 @@
         <field name="Name" type="NameTableFieldDefinition" value="PatronForm_Usurper" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Enchantment" enumeration_type_name="SpellSchool" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PatronForm_Usurper_DEBUFF, 100, -1);ApplyStatus(SELF,PatronForm_Usurper_BUFF, 100, -1);ApplyStatus(PatronForm_Usurper_VFX, 100, -1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PatronForm_Usurper_DEBUFF, 100, -1);TARGET:ApplyStatus(PatronForm_Usurper_TARGET_CatatonicSpasm, 100, -1);ApplyStatus(SELF,PatronForm_Usurper_BUFF, 100, -1);ApplyStatus(PatronForm_Usurper_VFX, 100, -1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="12" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Death Type" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self()" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h259dedc6gb937g1d00g067eg7ba1fa3c477e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2f36b9b1g45b6gd47cgadf3gfcdb0ad2c35f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42ffa827g7a60g617dg226cg3ecfe2c2067e" version="9" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
@@ -307,6 +307,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3cda2849-1bc6-4fe3-af70-19936e31959f" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c85ac173-deef-4f76-8187-6ed91627b9d0" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0ef7d00g2bb9g7047g5789gb8e56fef9289" version="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -323,7 +324,7 @@
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell14" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41a6dc97gbce9ga302g8bfcg91cf3327cb68" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4edf08dbge1abga503ge7edg3507d5f9fba6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4edf08dbge1abga503ge7edg3507d5f9fba6" version="4" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
@@ -349,8 +350,10 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PatronForm_SacrificialPact_ShadowsDominion_BUFF, 100, 6);" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell12" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81fb0e05gd335ga4eaga801ge49c02a56bc1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcf04757dg54d9g7b3ag9a7eg450956c33697" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcf04757dg54d9g7b3ag9a7eg450956c33697" version="9" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc9057e51g04d2g5babg251cga2826ab33b6d" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Necrotic)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

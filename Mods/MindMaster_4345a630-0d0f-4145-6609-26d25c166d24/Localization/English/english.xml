@@ -196,27 +196,27 @@
   <content contentuid="h148c7db7g0192g0be4g417bg30ed6741c83b" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Заклинание может быть применено только на &lt;LSTag Type="Status" Tooltip="PATRONFACE_ShadowObedience_Resurrect"&gt;Верного Слугу&lt;/LSTag&gt;.</content>
   <content contentuid="h432119bbgd47dg1f31gdcecg72a9a43dca73" version="1">Они лишь инструменты...</content>
   <content contentuid="h41a6dc97gbce9ga302g8bfcg91cf3327cb68" version="1">Жертвенный Пакт</content>
-  <content contentuid="h4edf08dbge1abga503ge7edg3507d5f9fba6" version="2">Выберите одно из трех усилений для союзника.</content>
+  <content contentuid="h4edf08dbge1abga503ge7edg3507d5f9fba6" version="4">Вы никогда не делитись своей силой безвозмездно, у всего есть своя цена... &lt;br&gt;&lt;br&gt;Выберите одно из стех усилений для вашего союзника: &lt;LSTag Type="Spell" Tooltip="Target_PatronForm_SacrificialPact_ShadowsDominion"&gt;Господство Над Тенями&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_PatronForm_SacrificialPact_SorrowChorus"&gt;Хор Скорби&lt;/LSTag&gt; или &lt;LSTag Type="Spell" Tooltip="Target_PatronForm_SacrificialPact_UnstoppableSeal"&gt;Печать Неудержимости&lt;/LSTag&gt;.</content>
   <content contentuid="h81fb0e05gd335ga4eaga801ge49c02a56bc1" version="1">Господство Над Тенями</content>
-  <content contentuid="hcf04757dg54d9g7b3ag9a7eg450956c33697" version="1">Стать единым с Тенями</content>
+  <content contentuid="hcf04757dg54d9g7b3ag9a7eg450956c33697" version="9">Превратите союзника в живое воплощение мрака.&lt;br&gt;&lt;br&gt;Цель наносит дополнительный [1], получает способность видеть и скрываться во тьме. Также получает заклинание &lt;LSTag Type="Spell" Tooltip="Target_MAG_Shadow_Shadowstep"&gt;Шаг Теней&lt;/LSTag&gt; для сотворения.&lt;br&gt;&lt;br&gt;В обмен на эту силу союзник получает &lt;LSTag Tooltip="Vulnerable"&gt;Уязвимость&lt;/LSTag&gt; к любому входящему урону.</content>
   <content contentuid="hed55fec8g5925g5bb9ge49agf163d06968c5" version="1">Хор Скорби</content>
   <content contentuid="ha37e60b6g23e0g8dd7g3defgb710e5b432db" version="1">Испуг по Области</content>
   <content contentuid="h6c6d09a0g4edagfc29g101agd4a37dc2be99" version="1">Печать Неудержимости</content>
   <content contentuid="h1d6e135cgac2cgc798ga1bfge6c0c35075fa" version="1">Наложить Печать</content>
   <content contentuid="ha0235fe2g16fdg9692g2f96g3e77fc9c57e2" version="3">Господство Над Тенями</content>
-  <content contentuid="h97a6c6ccgd225g862bg0514g4187b9996cec" version="1">%%% Описание способности</content>
+  <content contentuid="h97a6c6ccgd225g862bg0514g4187b9996cec" version="2">%%% Описание способности (Урон+ShadowStep)</content>
   <content contentuid="hb4dc4f92gf0c5gfd6fgcdbfg53e414f17504" version="1">Пассивка</content>
   <content contentuid="h1e13c040g411agc3efgd628gbd4ee766f43a" version="1">АнтиРезист теней</content>
   <content contentuid="h1dd1df1fg308dg87aagcb76gd758d1977a2b" version="1">%%% УЯЗМИВОСТЬ</content>
   <content contentuid="ha9d3a956gbe71gb4e4gbfadgcb0266d10885" version="1">%%% Кроме некротики и яда. </content>
   <content contentuid="h259dedc6gb937g1d00g067eg7ba1fa3c477e" version="1">Узурпатор</content>
   <content contentuid="h2f36b9b1g45b6gd47cgadf3gfcdb0ad2c35f" version="1">Присвойте себе силу противника.</content>
-  <content contentuid="h0659b079g7551g1483g31f9g009e468a33e0" version="3">Узурпатор - ОСНОВА</content>
-  <content contentuid="h505bc354g0358g1e17g13e1gc256cc778dbb" version="1">Описание</content>
-  <content contentuid="h98ff536cg06d5g557dg3944g93da87e0ed72" version="1">Узурпатор - БАФФ</content>
+  <content contentuid="h0659b079g7551g1483g31f9g009e468a33e0" version="4">Узурпатор</content>
+  <content contentuid="h505bc354g0358g1e17g13e1gc256cc778dbb" version="3">Существо лишается &lt;LSTag Tooltip="ArmourClass"&gt;2 Класса брони&lt;/LSTag&gt; и &lt;LSTag Tooltip="Vulnerable"&gt;Уязвимо&lt;/LSTag&gt; к психическому урону.</content>
+  <content contentuid="h98ff536cg06d5g557dg3944g93da87e0ed72" version="2">Узурпатор</content>
   <content contentuid="h23db6c9cg9581g4082g3157g5be5a7bb572e" version="1">%%% Кража характеристик</content>
   <content contentuid="h6d8b452dg3789gbd73gb403gdaa32d75f4a4" version="1">%%% Описание</content>
-  <content contentuid="hfb8a1016gad1fg079cgbe0ag668edc9983ff" version="3">Узурпатор - выкачивание характеристик</content>
+  <content contentuid="hfb8a1016gad1fg079cgbe0ag668edc9983ff" version="5">Когнитивная Эрозия</content>
   <content contentuid="h22a2f054g0f01gd245g5f23gc62f8c480495" version="1">Strength Drain</content>
   <content contentuid="ha28add0cga874g7dbcg74c1gab8fedbd4e63" version="1">Claw a foe's heart and possibly leech its &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 3. The target dies if its Strength is reduced to 0.</content>
   <content contentuid="hfe4b458ag3388gbd66g7fe5ge3ef793e2dc7" version="1">If the target is in bright light or daylight, it makes its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
@@ -228,6 +228,13 @@
   <content contentuid="he2baab9dg7a19gf28dgf0d4g10151fc94840" version="1">Radiating Orb</content>
   <content contentuid="h5795fce2g6c71g99c0ge970gb9f2610eb35c" version="1">Affected entity has [1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for each remaining turn. It also sheds bright light in an area surrounding it.&lt;br&gt;&lt;br&gt;Reduce the duration by [2] each time the entity makes an attack.</content>
   <content contentuid="h25e38dfegf5b4g12bcg530agbb35a349e099" version="2">%%% СКРЫТО</content>
-  <content contentuid="h403116cdg4f43gb8b2gabccgc130933f151f" version="1">%%% Ограничение в 10 стаков</content>
-  <content contentuid="h5fcda9f1gfc7fg11b2g77d4gc74adc44cc0e" version="1">Описание</content>
+  <content contentuid="h403116cdg4f43gb8b2gabccgc130933f151f" version="2">%%% Ограничение в 10 стаков "PatronForm_Usurper_DEBUFF_AbilityDrain"</content>
+  <content contentuid="h5fcda9f1gfc7fg11b2g77d4gc74adc44cc0e" version="2">Каждый ход выкачивает из существа &lt;LSTag Tooltip="Intelligence"&gt;Интеллект&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Мудрость&lt;/LSTag&gt; и &lt;LSTag Tooltip="Charisma"&gt;Харизму&lt;/LSTag&gt;, вплоть до 10.</content>
+  <content contentuid="h42ffa827g7a60g617dg226cg3ecfe2c2067e" version="9">Вторгнитесь в разум существа, разрушая его защиту и подчиняя сознание.&lt;br&gt;&lt;br&gt;Снижает &lt;LSTag Tooltip="ArmourClass"&gt;Класс брони&lt;/LSTag&gt; цели на 2 и делает её &lt;LSTag Tooltip="Vulnerable"&gt;Уязвимой&lt;/LSTag&gt; к психическому урону.&lt;br&gt;&lt;br&gt;Также накладывает на жертву &lt;LSTag Type="Status" Tooltip="PatronForm_Usurper_DEBUFF_AbilityDrain"&gt;Когнитивную Эрозию&lt;/LSTag&gt; и &lt;LSTag Type="Status" Tooltip="PatronForm_Usurper_TARGET_CatatonicSpasm"&gt;Кататонический Спазм&lt;/LSTag&gt;.</content>
+  <content contentuid="hf0ef7d00g2bb9g7047g5789gb8e56fef9289" version="3">Пока связь активна, вы получаете эффект &lt;LSTag Type="Status" Tooltip="PatronForm_Usurper_BUFF"&gt;Узурпатор&lt;/LSTag&gt;.</content>
+  <content contentuid="h71986b74g8b5eg319bg7815gbaa1eabd128c" version="1">Кататонический Спазм</content>
+  <content contentuid="h89f73520ga146gc4c9gaa2bg3880e8b52dda" version="4">Тело существа сковал шок от ментального вторжения. Существо получает меньше физического урона, но все его &lt;LSTag Tooltip="AttackRoll"&gt;Броски Атаки&lt;/LSTag&gt; совершаются с &lt;LSTag Tooltip="Disadvantage"&gt;Помехой&lt;/LSTag&gt;.</content>
+  <content contentuid="hd5cbb7dfg8cbbg879fg3ebfg8ac0ae97c739" version="1">%%% СКРЫТО</content>
+  <content contentuid="h78876dc4g07e1gb6f3gddb1g59c95d1996c9" version="2">Вы получаете &lt;LSTag Tooltip="ArmourClass"&gt;2 Класса брони&lt;/LSTag&gt;, похищенные у жертвы, а все ваши атаки игнорируют &lt;LSTag Tooltip="Immune"&gt;Иммунитет&lt;/LSTag&gt; к психическому урону.</content>
+  <content contentuid="hc9057e51g04d2g5babg251cga2826ab33b6d" version="3">Даёт следующие пассивные эффекты: &lt;LSTag Type="Passive" Tooltip="SunlightWeakness"&gt;Слабость к солнечному свету&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="EyesOfTheDark"&gt;Глаза Тьмы&lt;/LSTag&gt; и &lt;LSTag Type="Passive" Tooltip="ShadowyRetreat"&gt;Слияние с тенями&lt;/LSTag&gt;.</content>
 </contentList>

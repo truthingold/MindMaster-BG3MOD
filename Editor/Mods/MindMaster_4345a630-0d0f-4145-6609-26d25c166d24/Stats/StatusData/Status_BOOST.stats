@@ -102,7 +102,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a17aafa5-7c6d-4f7e-bf58-120ff387dbb3" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF9400D3" value="PatronForm_SoulDevour_HIDDENSTACK" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5060bf78g447bg7d15gf860g0cc6023a3ae1" version="4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5cbb7dfg8cbbg879fg3ebfg8ac0ae97c739" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1983675egc1dbga9a6g599fgd1e2fceb908f" version="4" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell9" />
         <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
@@ -130,7 +130,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="24073e03-0021-478e-a8fe-2fae05afc12f" />
         <field name="Name" type="NameTableFieldDefinition" value="PatronForm_SacrificialPact_ShadowsDominion_BUFF" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha0235fe2g16fdg9692g2f96g3e77fc9c57e2" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97a6c6ccgd225g862bg0514g4187b9996cec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97a6c6ccgd225g862bg0514g4187b9996cec" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell12" />
         <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Green" enumeration_type_name="FormatStringColor" version="1" />
         <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="BUFF" enumeration_type_name="SoundVocalType" version="1" />
@@ -150,8 +150,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="74e983f4-aca4-4961-b550-1271a12b518c" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_Usurper_DEBUFF" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0659b079g7551g1483g31f9g009e468a33e0" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h505bc354g0358g1e17g13e1gc256cc778dbb" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0659b079g7551g1483g31f9g009e468a33e0" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h505bc354g0358g1e17g13e1gc256cc778dbb" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMSpell7" />
         <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Pink" enumeration_type_name="FormatStringColor" version="1" />
         <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
@@ -159,24 +159,41 @@
         <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="PAIN" enumeration_type_name="SoundVocalType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_Usurper_DEBUFF" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="AC(-2);Resistance(Psychic, Vulnerable);Resistance(Slashing, Immune);Resistance(Bludgeoning, Immune);Resistance(Piercing, Immune);Resistance(Force, Immune);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(-2);Resistance(Psychic, Vulnerable);" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PatronForm_Usurper_DEBUFF_AbilityDrain, 100, 2); ApplyStatus(PatronForm_Usurper_DEBUFF_AbilityDrain_MAXSTACK, 100, 1);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Cursed" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):RemoveStatus(SELF,PatronForm_Usurper_BUFF)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0881935-41a7-40fb-91a9-7c4655522f73" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_Usurper_TARGET_CatatonicSpasm" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74e983f4-aca4-4961-b550-1271a12b518c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h71986b74g8b5eg319bg7815gbaa1eabd128c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89f73520ga146gc4c9gaa2bg3880e8b52dda" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MMDebuff1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_Usurper_TARGET_CatatonicSpasm" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);Resistance(Slashing, Resistant);Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e51c97e0-222c-452b-a8c3-d0d402ee318a" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_Usurper_DEBUFF_AbilityDrain" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb8a1016gad1fg079cgbe0ag668edc9983ff" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5fcda9f1gfc7fg11b2g77d4gc74adc44cc0e" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb8a1016gad1fg079cgbe0ag668edc9983ff" version="5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5fcda9f1gfc7fg11b2g77d4gc74adc44cc0e" version="2" />
         <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Pink" enumeration_type_name="FormatStringColor" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Intelligence,-1);Ability(Wisdom,-1);Ability(Charisma,-1);" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="MultiplyEffectsByDuration" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Cursed" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
         <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_Usurper_DEBUFF_AbilityDrain" />
@@ -189,7 +206,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b76d67e9-4571-4431-9142-38a9124fe1fd" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_Usurper_DEBUFF_AbilityDrain_MAXSTACK" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25e38dfegf5b4g12bcg530agbb35a349e099" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h403116cdg4f43gb8b2gabccgc130933f151f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h403116cdg4f43gb8b2gabccgc130933f151f" version="2" />
         <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_Usurper_DEBUFF_AbilityDrain_MAXSTACK" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -201,13 +218,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a5f758fa-6961-4407-863b-1882f3b8e31d" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF483D8B" value="PatronForm_Usurper_BUFF" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="74e983f4-aca4-4961-b550-1271a12b518c" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h98ff536cg06d5g557dg3944g93da87e0ed72" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h98ff536cg06d5g557dg3944g93da87e0ed72" version="2" />
         <field name="StillAnimationType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusAnimationType" version="1" />
         <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StillAnimPriority" version="1" />
         <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SoundVocalType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="PatronForm_Usurper_BUFF" />
         <field name="TickType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="AC(2);IgnoreResistance(Force,Immune);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(2);IgnoreResistance(Psychic,Immune);" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -215,6 +232,7 @@
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="BreakConcentration() " />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78876dc4g07e1gb6f3gddb1g59c95d1996c9" version="2" />
       </fields>
     </stat_object>
   </stat_objects>
