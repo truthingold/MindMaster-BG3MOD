@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5df1d37f-e063-4a27-b995-c38dc0b41c06" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FFA52A2A" value="SUPREME_BEING_SPELL" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFCD5C5C" value="SUPREME_BEING_SPELL" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Enchantment" enumeration_type_name="SpellSchool" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="10" />
@@ -98,7 +98,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ac353da5-8166-4f88-9ca5-b60557a28021" />
-        <field name="Name" type="NameTableFieldDefinition" color="#FFA52A2A" value="SUPREME_BEING_SPELL_REAPLY" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFCD5C5C" value="SUPREME_BEING_SPELL_REAPLY" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5df1d37f-e063-4a27-b995-c38dc0b41c06" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SUPREME_BEING_STATUS,100,5,,,,,true);RemoveStatus(SELF,SUPREME_BEING_REAPLY_STATUS);" />
         <field name="Icon" type="StringTableFieldDefinition" value="MMCantrip1" />

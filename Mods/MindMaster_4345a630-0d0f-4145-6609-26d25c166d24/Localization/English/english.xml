@@ -81,7 +81,7 @@
   <content contentuid="h1d160e4fgd641gf53dg9befg9a256371a37f" version="1">Псионическая Блокада</content>
   <content contentuid="h3c2bbf21g13adg0364g0d6eg986cbf7a6b6a" version="1">Полные стаки</content>
   <content contentuid="hae415bb7g5589g2c9dge020g0a04c922cb3b" version="1">Чек 6 стака</content>
-  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="111">Иллитид-Лич</content>
+  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="114">Иллитид-Лич</content>
   <content contentuid="h7cc1d48fga4eagc043ga463g194eb98f238f" version="1">Лик Покровителя</content>
   <content contentuid="h7550ce89gfbc5g5b90gb2e2gb18cfded31ec" version="2">Отдаться полностью во власть покровителя...</content>
   <content contentuid="h7c229646g208egaeb8gdc7agcba6b8e63406" version="1">Лик Покровителя</content>
@@ -211,16 +211,23 @@
   <content contentuid="ha9d3a956gbe71gb4e4gbfadgcb0266d10885" version="1">%%% Кроме некротики и яда. </content>
   <content contentuid="h259dedc6gb937g1d00g067eg7ba1fa3c477e" version="1">Узурпатор</content>
   <content contentuid="h2f36b9b1g45b6gd47cgadf3gfcdb0ad2c35f" version="1">Присвойте себе силу противника.</content>
-  <content contentuid="h0659b079g7551g1483g31f9g009e468a33e0" version="2">Узурпатор - ДЕБАФФ</content>
+  <content contentuid="h0659b079g7551g1483g31f9g009e468a33e0" version="3">Узурпатор - ОСНОВА</content>
   <content contentuid="h505bc354g0358g1e17g13e1gc256cc778dbb" version="1">Описание</content>
   <content contentuid="h98ff536cg06d5g557dg3944g93da87e0ed72" version="1">Узурпатор - БАФФ</content>
   <content contentuid="h23db6c9cg9581g4082g3157g5be5a7bb572e" version="1">%%% Кража характеристик</content>
   <content contentuid="h6d8b452dg3789gbd73gb403gdaa32d75f4a4" version="1">%%% Описание</content>
-  <content contentuid="hfb8a1016gad1fg079cgbe0ag668edc9983ff" version="1">ХОМЯЧИТЬ СТАТЫ</content>
+  <content contentuid="hfb8a1016gad1fg079cgbe0ag668edc9983ff" version="3">Узурпатор - выкачивание характеристик</content>
   <content contentuid="h22a2f054g0f01gd245g5f23gc62f8c480495" version="1">Strength Drain</content>
   <content contentuid="ha28add0cga874g7dbcg74c1gab8fedbd4e63" version="1">Claw a foe's heart and possibly leech its &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 3. The target dies if its Strength is reduced to 0.</content>
   <content contentuid="hfe4b458ag3388gbd66g7fe5ge3ef793e2dc7" version="1">If the target is in bright light or daylight, it makes its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
   <content contentuid="h5fc6ea88g66f1ga71dg675cgb5ac499c1302" version="1">Strength Drain</content>
   <content contentuid="h37866a0fg393cge49cg8c9dg918d2b424408" version="1">A shadow has drained the affected entity's &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 3.</content>
-  <content contentuid="h42af1c78gc790g2353g2e91g04ea2dc939aa" version="1">%%% Поглощение характеристик</content>
+  <content contentuid="h42af1c78gc790g2353g2e91g04ea2dc939aa" version="2">%%% Поглощение \ Видно только в меню характеристик</content>
+  <content contentuid="hee6bdcd9g6b5bgebb9g8dcdgb23eabd07dab" version="1">Warding Bond</content>
+  <content contentuid="h67ecc7dag69d4gc6a5g8580gbf3bdfa3914f" version="1">Ward an ally. They gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage, and a +[1] bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Each time the ally takes damage, you take the same amount of damage.</content>
+  <content contentuid="he2baab9dg7a19gf28dgf0d4g10151fc94840" version="1">Radiating Orb</content>
+  <content contentuid="h5795fce2g6c71g99c0ge970gb9f2610eb35c" version="1">Affected entity has [1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for each remaining turn. It also sheds bright light in an area surrounding it.&lt;br&gt;&lt;br&gt;Reduce the duration by [2] each time the entity makes an attack.</content>
+  <content contentuid="h25e38dfegf5b4g12bcg530agbb35a349e099" version="2">%%% СКРЫТО</content>
+  <content contentuid="h403116cdg4f43gb8b2gabccgc130933f151f" version="1">%%% Ограничение в 10 стаков</content>
+  <content contentuid="h5fcda9f1gfc7fg11b2g77d4gc74adc44cc0e" version="1">Описание</content>
 </contentList>

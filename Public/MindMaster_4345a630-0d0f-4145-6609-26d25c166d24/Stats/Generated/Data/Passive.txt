@@ -57,5 +57,5 @@ type "PassiveData"
 data "DisplayName" "h1dd1df1fg308dg87aagcb76gd758d1977a2b;1"
 data "Description" "ha9d3a956gbe71gb4e4gbfadgcb0266d10885;1"
 data "Properties" "IsHidden"
-data "Boosts" "Resistance(Slashing, Vulnerable);Resistance(Piercing, Vulnerable);Resistance(Bludgeoning, Vulnerable);Resistance(Acid, Vulnerable);Resistance(Cold, Vulnerable);Resistance(Fire, Vulnerable);Resistance(Force, Vulnerable);Resistance(Lightning, Vulnerable);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);Resistance(Psychic, Vulnerable);Resistance(Radiant, Vulnerable);Resistance(Thunder, Vulnerable);"
+data "Boosts" "Resistance(All, Vulnerable);"
 
