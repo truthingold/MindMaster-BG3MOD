@@ -39,7 +39,7 @@
         <field name="DisableEquipmentSlots" type="BoolTableFieldDefinition" value="True" />
         <field name="RuleName" type="StringTableFieldDefinition" color="#FF483D8B" value="PatronFormRuleBook" />
         <field name="BaseACOverride" type="BoolTableFieldDefinition" value="True" />
-        <field name="TagsAdd" type="GuidObjectListTableFieldDefinition" value="25bf5042-5bf6-4360-8df8-ab107ccb0d37;f6fd70e6-73d3-4a12-a77e-f24f30b3b424;33c625aa-6982-4c27-904f-e47029a9b140;1eec74e8-3673-4500-abec-57b7ed8469ed" />
+        <field name="TagsAdd" type="GuidObjectListTableFieldDefinition" value="25bf5042-5bf6-4360-8df8-ab107ccb0d37;f6fd70e6-73d3-4a12-a77e-f24f30b3b424;33c625aa-6982-4c27-904f-e47029a9b140" />
         <field name="DevComment" type="StringTableFieldDefinition" value="Правило для формы Покравителя" />
         <field name="ProficiencyGroupsInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />
         <field name="DefaultBoostsInheritanceType" type="EnumerationTableFieldDefinition" value="Merge" enumeration_type_name="ShapeshiftInheritanceType" version="1" />

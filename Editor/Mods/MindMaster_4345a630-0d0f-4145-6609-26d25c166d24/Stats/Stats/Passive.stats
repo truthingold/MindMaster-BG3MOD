@@ -80,5 +80,29 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(All, Vulnerable);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d9c78b6-5509-4927-a4bf-d8f666e52ba1" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFA52A2A" value="PatronForm_Usurper_DEBUFF_KineticCharge_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5edd0442g8355ga712g7ba3ge93b952128a5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h571b4baageb93g0a1eg768fgf7bcba423fe9" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Hit);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PatronForm_Usurper_DEBUFF_KineticCharge, 100, -1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f57f007a-ff89-4b0a-91d2-338455f9f952" />
+        <field name="Name" type="NameTableFieldDefinition" color="#FFA52A2A" value="PatronForm_Usurper_DEBUFF_KineticCharge_TRACKER_PASSIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90cae88eg5c45gcc00g2bffgdbb561efedff" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5929791dga3c8g7af5ge60dgb723985a905b" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('PatronForm_Usurper_DEBUFF_KineticCharge');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PatronForm_Usurper_DEBUFF_KineticCharge_TRACKER, 100, 1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

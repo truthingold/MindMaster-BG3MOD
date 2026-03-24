@@ -81,7 +81,7 @@
   <content contentuid="h1d160e4fgd641gf53dg9befg9a256371a37f" version="1">Псионическая Блокада</content>
   <content contentuid="h3c2bbf21g13adg0364g0d6eg986cbf7a6b6a" version="1">Полные стаки</content>
   <content contentuid="hae415bb7g5589g2c9dge020g0a04c922cb3b" version="1">Чек 6 стака</content>
-  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="114">Иллитид-Лич</content>
+  <content contentuid="hf7c31bd6g8628gda6agc9f4g826ec652c915" version="115">Иллитид-Лич</content>
   <content contentuid="h7cc1d48fga4eagc043ga463g194eb98f238f" version="1">Лик Покровителя</content>
   <content contentuid="h7550ce89gfbc5g5b90gb2e2gb18cfded31ec" version="2">Отдаться полностью во власть покровителя...</content>
   <content contentuid="h7c229646g208egaeb8gdc7agcba6b8e63406" version="1">Лик Покровителя</content>
@@ -237,4 +237,13 @@
   <content contentuid="hd5cbb7dfg8cbbg879fg3ebfg8ac0ae97c739" version="1">%%% СКРЫТО</content>
   <content contentuid="h78876dc4g07e1gb6f3gddb1g59c95d1996c9" version="2">Вы получаете &lt;LSTag Tooltip="ArmourClass"&gt;2 Класса брони&lt;/LSTag&gt;, похищенные у жертвы, а все ваши атаки игнорируют &lt;LSTag Tooltip="Immune"&gt;Иммунитет&lt;/LSTag&gt; к психическому урону.</content>
   <content contentuid="hc9057e51g04d2g5babg251cga2826ab33b6d" version="3">Даёт следующие пассивные эффекты: &lt;LSTag Type="Passive" Tooltip="SunlightWeakness"&gt;Слабость к солнечному свету&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="EyesOfTheDark"&gt;Глаза Тьмы&lt;/LSTag&gt; и &lt;LSTag Type="Passive" Tooltip="ShadowyRetreat"&gt;Слияние с тенями&lt;/LSTag&gt;.</content>
+  <content contentuid="hef9044b3ge141g6fc1gaddag2b11ca053338" version="2">%%% СКРЫТО</content>
+  <content contentuid="h5edd0442g8355ga712g7ba3ge93b952128a5" version="1">%%% Стаки</content>
+  <content contentuid="h571b4baageb93g0a1eg768fgf7bcba423fe9" version="1">%%% Кинетического Заряда</content>
+  <content contentuid="hfc7657d6gd66ag49e5g2801g188acb026d66" version="1">Тест Заклинание</content>
+  <content contentuid="h43b41b96ge17fga635gde86g078790ad319d" version="1">Взорвать все заряды</content>
+  <content contentuid="ha92dfc46g53cfg6f71g591ag79a89722bb61" version="1">Кинетический заряд</content>
+  <content contentuid="h56dab40cg71ebgf816g8625g7ccf5a648586" version="1">ТРЕКЕР</content>
+  <content contentuid="h90cae88eg5c45gcc00g2bffgdbb561efedff" version="1">%%% Трекер</content>
+  <content contentuid="h5929791dga3c8g7af5ge60dgb723985a905b" version="1">%%% Кинетического Заряда</content>
 </contentList>

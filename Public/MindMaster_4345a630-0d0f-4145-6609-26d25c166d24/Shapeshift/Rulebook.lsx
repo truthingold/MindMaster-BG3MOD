@@ -113,9 +113,6 @@
                         <node id="TagsAdd">
                             <attribute id="Object" type="guid" value="33c625aa-6982-4c27-904f-e47029a9b140"/>
                         </node>
-                        <node id="TagsAdd">
-                            <attribute id="Object" type="guid" value="1eec74e8-3673-4500-abec-57b7ed8469ed"/>
-                        </node>
                         <node id="TemporaryHp">
                             <attribute id="type" type="uint8" value="0"/>
                             <attribute id="value" type="int32" value="10"/>
